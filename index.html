@@ -1,89 +1,468 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ospitalk — WhatsApp assistant for hospitality</title>
-<meta name="description" content="Ospitalk is a WhatsApp assistant for hospitality properties, helping guests get check-in details, wifi codes, and house rules instantly.">
+<title>Ospitalk · Risposte automatiche agli ospiti su WhatsApp per la tua casa vacanza</title>
+<meta name="description" content="Gli ospiti ti scrivono a mezzanotte per la password del wifi? Ospitalk risponde al posto tuo su WhatsApp, nella loro lingua. Pensato per chi affitta una o due case. Iscriviti alla lista d'attesa.">
+<link rel="canonical" href="https://ospitalk.com/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="it_IT">
+<meta property="og:site_name" content="Ospitalk">
+<meta property="og:title" content="Ospitalk · Gli ospiti chiedono, Ospitalk risponde su WhatsApp">
+<meta property="og:description" content="Risposte automatiche agli ospiti della tua casa vacanza, 24 ore su 24, nella loro lingua. Per chi affitta una o due case.">
+<meta property="og:url" content="https://ospitalk.com/">
+<meta name="theme-color" content="#FBF5EC">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23C1552F'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='36' font-weight='700' text-anchor='middle' fill='%23FBF5EC'%3EO%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="fonts/fonts.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "Ospitalk",
+      "url": "https://ospitalk.com/",
+      "legalName": "RGM S.r.l.",
+      "vatID": "IT05047840870",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Via Giuseppe Garibaldi 23",
+        "postalCode": "95010",
+        "addressLocality": "Santa Venerina",
+        "addressRegion": "CT",
+        "addressCountry": "IT"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Devo comprare un numero di telefono o installare un'app?", "acceptedAnswer": {"@type": "Answer", "text": "No. Gli ospiti scrivono al numero WhatsApp di Ospitalk inquadrando il codice QR della tua casa: niente numero nuovo per te, nessuna app per loro."}},
+        {"@type": "Question", "name": "Funziona con Airbnb e Booking.com?", "acceptedAnswer": {"@type": "Answer", "text": "Sì. Colleghi il calendario della tua casa su Airbnb, Booking.com o Vrbo e Ospitalk conosce arrivi e partenze, per i promemoria delle pulizie e la richiesta di recensione."}},
+        {"@type": "Question", "name": "Cosa succede se Ospitalk non sa rispondere?", "acceptedAnswer": {"@type": "Answer", "text": "Non inventa nulla: ti avvisa e rispondi tu. Se vuoi, la tua risposta diventa automatica per i prossimi ospiti."}},
+        {"@type": "Question", "name": "In che lingue risponde?", "acceptedAnswer": {"@type": "Answer", "text": "Nella lingua in cui scrive l'ospite: italiano, inglese, tedesco, francese, spagnolo e molte altre. Capisce anche foto e messaggi vocali."}},
+        {"@type": "Question", "name": "Quanto costa?", "acceptedAnswer": {"@type": "Answer", "text": "Il prezzo sarà annunciato al lancio, con condizioni riservate a chi si iscrive alla lista d'attesa. Potrai pagare solo i mesi della stagione in cui affitti."}}
+      ]
+    }
+  ]
+}
+</script>
 <style>
   :root {
-    --bg: #0f1115;
-    --panel: #171a21;
-    --accent: #25d366;
-    --text: #f5f6f8;
-    --muted: #9aa1ac;
+    --cream: #FBF5EC;
+    --sand: #F3E8D7;
+    --ink: #2B2420;
+    --ink-soft: #5E534C;
+    --terracotta: #C1552F;
+    --terracotta-dark: #9E4223;
+    --sage: #5C6B57;
+    --chat-bg: #E9DFCF;
+    --bubble-in: #FFFFFF;
+    --bubble-out: #DCEFC9;
+    --radius: 18px;
+    --display: 'Fraunces', Georgia, serif;
+    --sans: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   }
   * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
   body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    display: flex;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
-    padding: 24px;
+    font-family: var(--sans);
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--ink);
+    background: var(--cream);
+    -webkit-font-smoothing: antialiased;
   }
-  .card {
-    max-width: 560px;
-    width: 100%;
-    background: var(--panel);
-    border-radius: 16px;
-    padding: 48px 40px;
-    text-align: center;
-  }
-  .logo {
-    font-size: 28px;
-    font-weight: 700;
-    letter-spacing: -0.02em;
-    margin-bottom: 8px;
-  }
-  .logo span { color: var(--accent); }
-  .tagline {
-    font-size: 16px;
-    color: var(--muted);
-    margin-bottom: 32px;
-  }
-  .status {
+  a { color: var(--terracotta); }
+  img { max-width: 100%; }
+  .wrap { width: min(1080px, 100% - 40px); margin-inline: auto; }
+  h1, h2, h3 { font-family: var(--display); font-weight: 600; line-height: 1.15; letter-spacing: -0.01em; margin: 0; }
+  h2 { font-size: clamp(28px, 4vw, 40px); margin-bottom: 16px; }
+  .eyebrow {
     display: inline-block;
     font-size: 13px;
-    color: var(--accent);
-    border: 1px solid var(--accent);
-    border-radius: 999px;
-    padding: 6px 16px;
-    margin-bottom: 32px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--terracotta);
+    margin-bottom: 12px;
   }
-  .description {
-    font-size: 15px;
-    line-height: 1.6;
-    color: var(--text);
-    margin-bottom: 32px;
+  .lead { font-size: 19px; color: var(--ink-soft); max-width: 640px; }
+  .btn {
+    display: inline-block;
+    background: var(--terracotta);
+    color: var(--cream);
+    font-weight: 600;
+    text-decoration: none;
+    padding: 15px 26px;
+    border-radius: 12px;
+    border: 0;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
   }
-  .contact {
-    font-size: 14px;
-    color: var(--muted);
-    border-top: 1px solid #262a33;
-    padding-top: 24px;
+  .btn:hover { background: var(--terracotta-dark); transform: translateY(-1px); }
+  .btn:focus-visible, input:focus-visible { outline: 3px solid var(--sage); outline-offset: 2px; }
+
+  /* Header */
+  header { padding: 22px 0; }
+  header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .logo { font-family: var(--display); font-size: 26px; font-weight: 600; color: var(--terracotta); text-decoration: none; }
+  header nav a { color: var(--ink); text-decoration: none; font-weight: 500; font-size: 15px; }
+  header nav a:hover { color: var(--terracotta); }
+
+  /* Hero */
+  .hero { padding: 40px 0 80px; }
+  .hero .wrap { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 56px; align-items: center; }
+  .hero h1 { font-size: clamp(38px, 6vw, 64px); margin-bottom: 22px; }
+  .hero h1 em { font-style: italic; color: var(--terracotta); }
+  .hero .lead { margin-bottom: 30px; }
+  .hero-note { font-size: 14px; color: var(--ink-soft); margin-top: 14px; }
+  .badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--sand); color: var(--sage);
+    font-size: 14px; font-weight: 600;
+    padding: 6px 14px; border-radius: 999px; margin-bottom: 22px;
   }
-  .contact a { color: var(--accent); text-decoration: none; }
+  .badge::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--sage); }
+
+  /* Phone mockup */
+  .phone {
+    background: var(--ink);
+    border-radius: 38px;
+    padding: 12px;
+    box-shadow: 0 30px 60px -20px rgba(43, 36, 32, 0.45);
+    max-width: 340px;
+    margin-inline: auto;
+    transform: rotate(2deg);
+  }
+  .screen { background: var(--chat-bg); border-radius: 28px; overflow: hidden; }
+  .chat-head { background: var(--sage); color: #fff; padding: 14px 18px; font-size: 15px; font-weight: 600; }
+  .chat-head small { display: block; font-weight: 400; opacity: 0.85; font-size: 12px; }
+  .chat { padding: 16px 12px 20px; display: flex; flex-direction: column; gap: 10px; min-height: 380px; }
+  .bubble {
+    max-width: 82%; padding: 9px 12px; border-radius: 14px; font-size: 14px; line-height: 1.4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+    opacity: 0; animation: pop 0.5s ease forwards;
+  }
+  .bubble time { display: block; text-align: right; font-size: 11px; color: #7a7a7a; margin-top: 2px; }
+  .in { align-self: flex-start; background: var(--bubble-in); border-top-left-radius: 4px; }
+  .out { align-self: flex-end; background: var(--bubble-out); border-top-right-radius: 4px; }
+  .b1 { animation-delay: 0.3s; } .b2 { animation-delay: 1.1s; } .b3 { animation-delay: 2.1s; } .b4 { animation-delay: 2.9s; }
+  @keyframes pop { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  .mock-caption { text-align: center; font-size: 13px; color: var(--ink-soft); margin-top: 18px; }
+
+  /* Sections */
+  section { padding: 84px 0; }
+  .band { background: var(--sand); }
+  .problems { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 36px; }
+  .problem { background: var(--cream); border-radius: var(--radius); padding: 24px; }
+  .problem q { font-family: var(--display); font-size: 21px; font-style: italic; display: block; margin-bottom: 10px; quotes: "“" "”"; }
+  .problem p { margin: 0; color: var(--ink-soft); font-size: 15px; }
+
+  .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-top: 40px; counter-reset: step; }
+  .step { position: relative; padding-top: 58px; }
+  .step::before {
+    counter-increment: step; content: counter(step);
+    position: absolute; top: 0; left: 0;
+    width: 44px; height: 44px; border-radius: 50%;
+    display: grid; place-items: center;
+    background: var(--terracotta); color: var(--cream);
+    font-family: var(--display); font-size: 22px; font-weight: 600;
+  }
+  .step h3 { font-size: 22px; margin-bottom: 8px; }
+  .step p { margin: 0; color: var(--ink-soft); }
+
+  .features { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin-top: 40px; }
+  .feature { background: #fff; border: 1px solid rgba(43, 36, 32, 0.08); border-radius: var(--radius); padding: 26px; }
+  .feature h3 { font-size: 21px; margin-bottom: 8px; }
+  .feature p { margin: 0; color: var(--ink-soft); font-size: 16px; }
+  .icon { font-size: 26px; margin-bottom: 10px; display: block; }
+
+  .why { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; margin-top: 36px; }
+  .why div { border-top: 3px solid var(--terracotta); padding-top: 16px; }
+  .why h3 { font-size: 19px; margin-bottom: 6px; }
+  .why p { margin: 0; color: var(--ink-soft); font-size: 15px; }
+
+  .price-box {
+    background: var(--ink); color: var(--cream);
+    border-radius: 28px; padding: 48px;
+    display: grid; grid-template-columns: 1.2fr 1fr; gap: 40px; align-items: center;
+  }
+  .price-box h2 { color: var(--cream); }
+  .price-box p { color: #D9CFC4; margin: 0 0 12px; }
+  .price-box ul { margin: 0; padding: 0; list-style: none; }
+  .price-box li { padding: 10px 0; border-bottom: 1px solid rgba(251, 245, 236, 0.15); }
+  .price-box li::before { content: "✓"; color: #E59A7C; font-weight: 700; margin-right: 10px; }
+
+  .faq { max-width: 760px; margin-top: 30px; }
+  details { border-bottom: 1px solid rgba(43, 36, 32, 0.15); padding: 18px 0; }
+  summary { cursor: pointer; font-weight: 600; font-size: 18px; list-style: none; display: flex; justify-content: space-between; gap: 16px; }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: "+"; color: var(--terracotta); font-size: 24px; line-height: 1; transition: transform 0.2s; }
+  details[open] summary::after { transform: rotate(45deg); }
+  details p { color: var(--ink-soft); margin: 12px 0 0; }
+
+  .waitlist { text-align: center; }
+  .waitlist .lead { margin: 0 auto 30px; }
+  form.signup {
+    display: flex; gap: 10px; max-width: 520px; margin: 0 auto 14px; flex-wrap: wrap; justify-content: center;
+  }
+  form.signup input[type=email] {
+    flex: 1 1 260px; padding: 15px 16px; border-radius: 12px;
+    border: 1.5px solid rgba(43, 36, 32, 0.25); font: inherit; background: #fff;
+  }
+  .consent { font-size: 13px; color: var(--ink-soft); max-width: 520px; margin: 0 auto; display: flex; gap: 8px; text-align: left; align-items: flex-start; }
+  .consent input { margin-top: 4px; }
+
+  footer { padding: 40px 0 50px; font-size: 14px; color: var(--ink-soft); border-top: 1px solid rgba(43, 36, 32, 0.1); }
+  footer .wrap { display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
+
+  @media (max-width: 860px) {
+    .hero .wrap, .price-box { grid-template-columns: 1fr; }
+    .hero { padding-top: 10px; }
+    .phone { transform: none; }
+    .problems, .steps, .features, .why { grid-template-columns: 1fr; }
+    .price-box { padding: 32px 24px; }
+    section { padding: 64px 0; }
+    header nav { display: none; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .bubble { animation: none; opacity: 1; }
+    .btn:hover { transform: none; }
+  }
 </style>
 </head>
 <body>
-  <div class="card">
-    <div class="logo">Ospit<span>alk</span></div>
-    <div class="tagline">WhatsApp assistant for hospitality</div>
-    <div class="status">Launching soon</div>
-    <p class="description">
-      Ospitalk helps hospitality properties answer guest questions instantly on WhatsApp —
-      check-in instructions, wifi access, house rules, and local recommendations —
-      without a member of staff on call around the clock.
-    </p>
-    <div class="contact">
-      Operated by RGM S.r.l. · Via Giuseppe Garibaldi 23, 95010 Santa Venerina (CT), Italy<br>
-      VAT IT05047840870<br>
-      <a href="mailto:info@ospitalk.com">info@ospitalk.com</a>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="/">Ospitalk</a>
+    <nav><a href="#lista">Iscriviti alla lista d'attesa</a></nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="badge">In arrivo · iscrizioni aperte</span>
+        <h1>Gli ospiti chiedono.<br><em>Ospitalk risponde</em> su WhatsApp.</h1>
+        <p class="lead">
+          Password del wifi, orario del check-in, dove parcheggiare: Ospitalk risponde al posto tuo
+          agli ospiti della tua casa vacanza, a qualsiasi ora e nella loro lingua.
+          Pensato per chi affitta una o due case, senza complicazioni.
+        </p>
+        <a class="btn" href="#lista">Avvisami al lancio</a>
+        <p class="hero-note">Nessuna app da installare, né per te né per i tuoi ospiti.</p>
+      </div>
+      <div>
+        <div class="phone" aria-hidden="true">
+          <div class="screen">
+            <div class="chat-head">Casa Panorama<small>assistente Ospitalk</small></div>
+            <div class="chat">
+              <div class="bubble in b1">Hallo! Wie lautet das WLAN-Passwort?<time>23:47</time></div>
+              <div class="bubble out b2">Hallo! Das WLAN heißt „CasaPanorama“, das Passwort ist sole2026. Schönen Abend! 🌙<time>23:47</time></div>
+              <div class="bubble in b3">E domani a che ora dobbiamo lasciare la casa?<time>23:49</time></div>
+              <div class="bubble out b4">Il check-out è entro le 10:00. Le chiavi vanno lasciate sul tavolo della cucina. Buon viaggio! 🧳<time>23:49</time></div>
+            </div>
+          </div>
+        </div>
+        <p class="mock-caption">Esempio di conversazione</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap">
+      <span class="eyebrow">Ti suona familiare?</span>
+      <h2>Le stesse domande, a tutte le ore.</h2>
+      <div class="problems">
+        <div class="problem">
+          <q>Qual è la password del wifi?</q>
+          <p>Scritta sul frigo, nel messaggio di benvenuto e nella guida. Te la chiedono lo stesso, magari a mezzanotte.</p>
+        </div>
+        <div class="problem">
+          <q>Possiamo arrivare alle 23?</q>
+          <p>Sei a cena, al lavoro o in vacanza anche tu, e l'ospite aspetta una risposta in pochi minuti.</p>
+        </div>
+        <div class="problem">
+          <q>Wo kann ich parken?</q>
+          <p>Ospiti da tutto il mondo, ognuno nella sua lingua. Tradurre ogni volta richiede tempo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <span class="eyebrow">Come funziona</span>
+      <h2>Pronto in pochi minuti, tutto su WhatsApp.</h2>
+      <p class="lead">Niente pannelli complicati da configurare: rispondi a qualche domanda in chat, come faresti con un amico.</p>
+      <div class="steps">
+        <div class="step">
+          <h3>Racconti la tua casa</h3>
+          <p>Ospitalk ti fa una domanda alla volta su WhatsApp: check-in, wifi, regole, parcheggio, emergenze. Puoi rispondere con un testo, una foto o un messaggio vocale.</p>
+        </div>
+        <div class="step">
+          <h3>Lo dai agli ospiti</h3>
+          <p>Metti in casa il codice QR della tua struttura, o manda il link nel messaggio di prenotazione. Gli ospiti scrivono su WhatsApp, come sempre.</p>
+        </div>
+        <div class="step">
+          <h3>Ospitalk risponde</h3>
+          <p>Giorno e notte, nella lingua dell'ospite, solo con le informazioni che gli hai dato tu. Quando non sa una risposta, non inventa: chiede a te.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap">
+      <span class="eyebrow">Cosa fa per te</span>
+      <h2>Un aiuto in più, senza assumere nessuno.</h2>
+      <div class="features">
+        <div class="feature">
+          <span class="icon">💬</span>
+          <h3>Risponde 24 ore su 24</h3>
+          <p>Nella lingua dell'ospite, con le informazioni della tua casa. Capisce anche le foto e i messaggi vocali.</p>
+        </div>
+        <div class="feature">
+          <span class="icon">🧠</span>
+          <h3>Impara da te</h3>
+          <p>Se arriva una domanda nuova, ti avvisa e rispondi tu. Con un clic la tua risposta diventa automatica per i prossimi ospiti.</p>
+        </div>
+        <div class="feature">
+          <span class="icon">📅</span>
+          <h3>Arrivi, partenze e pulizie</h3>
+          <p>Collega il calendario di Airbnb o Booking.com: ogni mattina ricevi gli arrivi del giorno e chi pulisce riceve l'elenco delle pulizie.</p>
+        </div>
+        <div class="feature">
+          <span class="icon">⭐</span>
+          <h3>Più recensioni</h3>
+          <p>Il giorno della partenza ringrazia l'ospite e gli chiede una recensione, con il link giusto e nella sua lingua.</p>
+        </div>
+        <div class="feature">
+          <span class="icon">🥐</span>
+          <h3>Servizi extra</h3>
+          <p>Late check-out, colazione, transfer: quando serve li propone all'ospite. La conferma resta sempre a te.</p>
+        </div>
+        <div class="feature">
+          <span class="icon">🛡️</span>
+          <h3>Niente invenzioni</h3>
+          <p>Risponde solo con quello che gli hai detto tu. Se un'informazione non c'è, non la inventa: la chiede a te.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <span class="eyebrow">Perché Ospitalk</span>
+      <h2>Fatto per chi affitta una o due case.</h2>
+      <div class="why">
+        <div>
+          <h3>Nessun numero da comprare</h3>
+          <p>Non devi attivare una SIM né registrarti su Meta: gli ospiti scrivono al numero di Ospitalk.</p>
+        </div>
+        <div>
+          <h3>Paghi la stagione</h3>
+          <p>Affitti solo d'estate? Potrai pagare solo i mesi in cui lavori, non tutto l'anno.</p>
+        </div>
+        <div>
+          <h3>Società italiana</h3>
+          <p>Ospitalk è di RGM S.r.l., in Sicilia. Contratto, fattura e assistenza in italiano.</p>
+        </div>
+        <div>
+          <h3>Ogni casa con il suo CIN</h3>
+          <p>Chiediamo il codice CIN a ogni casa registrata: un filtro in più contro gli annunci falsi.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="price-box">
+        <div>
+          <span class="eyebrow" style="color:#E59A7C">Prezzo</span>
+          <h2>Prezzo di lancio per chi si iscrive prima.</h2>
+          <p>Il listino sarà annunciato al lancio. Chi è in lista d'attesa avrà condizioni riservate.</p>
+        </div>
+        <ul>
+          <li>Pensato per una o due case</li>
+          <li>Pacchetti per la sola stagione</li>
+          <li>Assistenza in italiano</li>
+          <li>Nessuna app, per te e per gli ospiti</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap">
+      <span class="eyebrow">Domande frequenti</span>
+      <h2>Prima che tu lo chieda.</h2>
+      <div class="faq">
+        <details>
+          <summary>Devo comprare un numero di telefono o installare un'app?</summary>
+          <p>No. Gli ospiti scrivono al numero WhatsApp di Ospitalk inquadrando il codice QR della tua casa: niente numero nuovo per te, nessuna app per loro.</p>
+        </details>
+        <details>
+          <summary>Funziona con Airbnb e Booking.com?</summary>
+          <p>Sì. Colleghi il calendario della tua casa su Airbnb, Booking.com o Vrbo e Ospitalk conosce arrivi e partenze, per i promemoria delle pulizie e la richiesta di recensione.</p>
+        </details>
+        <details>
+          <summary>Cosa succede se Ospitalk non sa rispondere?</summary>
+          <p>Non inventa nulla: ti avvisa e rispondi tu. Se vuoi, la tua risposta diventa automatica per i prossimi ospiti.</p>
+        </details>
+        <details>
+          <summary>In che lingue risponde?</summary>
+          <p>Nella lingua in cui scrive l'ospite: italiano, inglese, tedesco, francese, spagnolo e molte altre. Capisce anche foto e messaggi vocali.</p>
+        </details>
+        <details>
+          <summary>Serve il CIN?</summary>
+          <p>Sì, per le case in Italia lo chiediamo all'iscrizione: è obbligatorio per legge per tutti gli affitti brevi e ci aiuta a tenere il servizio libero da annunci falsi.</p>
+        </details>
+        <details>
+          <summary>Quanto costa?</summary>
+          <p>Il prezzo sarà annunciato al lancio, con condizioni riservate a chi si iscrive alla lista d'attesa. Potrai pagare solo i mesi della stagione in cui affitti.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="waitlist" id="lista">
+    <div class="wrap">
+      <span class="eyebrow">Lista d'attesa</span>
+      <h2>Vuoi provarlo per primo?</h2>
+      <p class="lead">Lasciaci la tua email: ti avvisiamo al lancio, con il prezzo riservato agli iscritti.</p>
+      <!-- TODO: collegare il modulo a uno strumento per la lista d'attesa prima di pubblicare -->
+      <form class="signup" action="#" method="post">
+        <label for="email" style="position:absolute;left:-9999px">Email</label>
+        <input id="email" name="email" type="email" required placeholder="La tua email" autocomplete="email">
+        <button class="btn" type="submit">Iscrivimi</button>
+        <p class="consent">
+          <input id="consent" name="consent" type="checkbox" required>
+          <label for="consent">Acconsento a ricevere un'email al lancio di Ospitalk. Ho letto l'<a href="privacy.html">informativa sulla privacy</a>.</label>
+        </p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <strong style="color:var(--ink)">Ospitalk</strong> è un servizio di RGM S.r.l.<br>
+      Via Giuseppe Garibaldi 23, 95010 Santa Venerina (CT) · P.IVA IT05047840870
+    </div>
+    <div>
+      <a href="mailto:info@ospitalk.com">info@ospitalk.com</a> · <a href="privacy.html">Privacy</a>
     </div>
   </div>
+</footer>
+
 </body>
 </html>
