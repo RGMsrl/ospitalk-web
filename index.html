@@ -207,15 +207,8 @@
 
   .waitlist { text-align: center; }
   .waitlist .lead { margin: 0 auto 30px; }
-  form.signup {
-    display: flex; gap: 10px; max-width: 520px; margin: 0 auto 14px; flex-wrap: wrap; justify-content: center;
-  }
-  form.signup input[type=email] {
-    flex: 1 1 260px; padding: 15px 16px; border-radius: 12px;
-    border: 1.5px solid rgba(43, 36, 32, 0.25); font: inherit; background: #fff;
-  }
-  .consent { font-size: 13px; color: var(--ink-soft); max-width: 520px; margin: 0 auto; display: flex; gap: 8px; text-align: left; align-items: flex-start; }
-  .consent input { margin-top: 4px; }
+  .signup { margin: 0 auto 14px; }
+  .consent { font-size: 13px; color: var(--ink-soft); max-width: 520px; margin: 0 auto; }
 
   footer { padding: 40px 0 50px; font-size: 14px; color: var(--ink-soft); border-top: 1px solid rgba(43, 36, 32, 0.1); }
   footer .wrap { display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
@@ -437,17 +430,10 @@
     <div class="wrap">
       <span class="eyebrow">Lista d'attesa</span>
       <h2>Vuoi provarlo per primo?</h2>
-      <p class="lead">Lasciaci la tua email: ti avvisiamo al lancio, con il prezzo riservato agli iscritti.</p>
-      <!-- TODO: collegare il modulo a uno strumento per la lista d'attesa prima di pubblicare -->
-      <form class="signup" action="#" method="post">
-        <label for="email" style="position:absolute;left:-9999px">Email</label>
-        <input id="email" name="email" type="email" required placeholder="La tua email" autocomplete="email">
-        <button class="btn" type="submit">Iscrivimi</button>
-        <p class="consent">
-          <input id="consent" name="consent" type="checkbox" required>
-          <label for="consent">Acconsento a ricevere un'email al lancio di Ospitalk. Ho letto l'<a href="privacy.html">informativa sulla privacy</a>.</label>
-        </p>
-      </form>
+      <p class="lead">Scrivici una riga: ti avvisiamo al lancio, con il prezzo riservato agli iscritti.</p>
+      <!-- Provvisorio fino al deploy dell'app: poi un modulo collegato al database di Ospitalk. -->
+      <p class="signup"><a class="btn" href="mailto:info@ospitalk.com?subject=Lista%20d%27attesa%20Ospitalk&amp;body=Ciao%2C%20vorrei%20entrare%20nella%20lista%20d%27attesa%20di%20Ospitalk.%0A%0AQuante%20case%20affitti%3A%20%0AIn%20che%20zona%3A%20">Scrivici per iscriverti</a></p>
+      <p class="consent">Si apre un'email già pronta per <a href="mailto:info@ospitalk.com">info@ospitalk.com</a>. Useremo il tuo indirizzo solo per avvisarti al lancio: leggi l'<a href="privacy.html">informativa sulla privacy</a>.</p>
     </div>
   </section>
 </main>
