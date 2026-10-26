@@ -43,6 +43,7 @@ h1, h2, h3 { margin: 0; font-family: var(--serif); font-weight: 600; line-height
 h2 { margin-bottom: 18px; font-size: clamp(32px, 4.4vw, 48px); }
 h3 { font-size: 23px; line-height: 1.2; }
 .lead { max-width: 640px; margin: 0 0 1em; color: var(--ink-soft); font-size: 20px; }
+.nowrap { white-space: nowrap; }
 .ico { width: 24px; height: 24px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
 
 /* Numero di sezione come la targhetta di una stanza */
@@ -206,7 +207,7 @@ section { padding: 96px 0; }
 
 /* Registro: domande vere, cosa succede */
 .ledger { margin: 40px 0 0; padding: 0; border-top: 2px solid var(--ink); list-style: none; }
-.ledger li { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr) auto; gap: 12px 40px; align-items: center; padding: 28px 0; border-bottom: 2px dashed var(--rule); }
+.ledger li { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr) 230px; gap: 12px 40px; align-items: center; padding: 28px 0; border-bottom: 2px dashed var(--rule); }
 .ledger q { font-family: var(--serif); font-size: clamp(24px, 2.6vw, 30px); font-style: italic; line-height: 1.2; quotes: '«' '»'; }
 .ledger p { margin: 0; color: var(--ink-soft); }
 .ledger .stamp { justify-self: end; }
@@ -359,6 +360,12 @@ details p { max-width: 720px; margin: 0 0 24px; color: var(--ink-soft); }
   .msg-auto, .msg-host { margin-left: 14px; }
   .msg-auto::before, .msg-host::before { left: -43px; }
   .msg .stamp { right: -8px; }
+  .eyebrow { gap: 12px; }
+  .eyebrow::after { display: none; }
+  .keytag { padding: 62px 22px 26px; transform: rotate(-1deg); transform-origin: 50% 0; }
+  .keytag:nth-child(2) { transform: rotate(.6deg); }
+  .band .narrow { padding-left: 18px; }
+  .keytag:nth-child(3) { transform: rotate(-.6deg); }
   .ledger li { grid-template-columns: minmax(0, 1fr); padding: 24px 0; }
   .receipt { padding: 20px 20px 24px; transform: none; }
   .step { grid-template-columns: 44px minmax(0, 1fr); gap: 4px 12px; }
