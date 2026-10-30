@@ -128,7 +128,7 @@ main { counter-reset: room; }
 .site-head .wrap { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
 .logo { display: inline-flex; align-items: center; gap: 10px; color: var(--ink); font-family: var(--serif); font-size: 28px; font-weight: 600; letter-spacing: -.01em; line-height: 1; text-decoration: none; }
 .logo:hover { color: var(--ink); }
-.logo-mark { width: 24px; height: 32px; flex: none; }
+.logo-mark { width: 26px; height: 34px; flex: none; }
 .site-head nav { display: flex; align-items: center; justify-content: flex-end; gap: 8px 22px; flex-wrap: wrap; }
 .site-head nav a { color: var(--ink); font-size: 16px; font-weight: 700; text-decoration: none; }
 .site-head nav a:hover, .site-head nav a[aria-current] { color: var(--terra-dk); text-decoration: underline; text-decoration-style: dashed; }
