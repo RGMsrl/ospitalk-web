@@ -2,9 +2,7 @@
   <title id="title">Ospitalk, assistente WhatsApp per l'ospitalità</title>
   <desc id="desc">Grafica color carta con il marchio Ospitalk, una targhetta QR appesa e il percorso di una domanda: risposta automatica in lingua e passaggio all'host.</desc>
   <rect width="1200" height="630" fill="#F6F0E4"/>
-  <circle cx="84" cy="65" r="6" fill="none" stroke="#1B2420" stroke-width="2.4"/>
-  <rect x="72" y="68" width="24" height="34" rx="6" fill="#A8462A"/>
-  <circle cx="84" cy="79" r="3.3" fill="#F6F0E4"/>
+  <g transform="translate(66 56) scale(0.36)"><circle cx="50" cy="19" r="13" fill="none" stroke="#9A7A3F" stroke-width="9"/><path d="M50 33C27 33 15 48 15 72c0 23 14 37 30 40l27 16-8-21c13-7 21-19 21-35 0-24-12-39-35-39z" fill="#1F5A45"/><circle cx="50" cy="65" r="10" fill="#E3B54C"/><path d="M44.5 69h11l2.5 23h-16z" fill="#E3B54C"/></g>
   <text x="110" y="98" font-family="Newsreader, Georgia, serif" font-size="40" font-weight="600" fill="#1B2420">Ospitalk</text>
   <text x="72" y="228" font-family="Newsreader, Georgia, serif" font-size="68" font-weight="600" fill="#1B2420">Gli ospiti chiedono.</text>
   <text x="72" y="301.44" font-family="Newsreader, Georgia, serif" font-size="68" font-style="italic" font-weight="500" fill="#8E3A22">La tua casa risponde.</text>
