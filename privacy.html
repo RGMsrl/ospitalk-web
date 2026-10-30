@@ -1,10 +1,11 @@
-<!-- BOZZA da validare con consulente legale -->
 <!DOCTYPE html>
 <html lang="it">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="/consent.js"></script>
 <title>Informativa sulla privacy · Ospitalk</title>
+<meta name="description" content="Come RGM S.r.l. tratta i dati degli host che usano Ospitalk e dei visitatori del sito ospitalk.com.">
 <meta name="robots" content="noindex">
 <meta name="theme-color" content="#F6F0E4">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 32'%3E%3Ccircle cx='12' cy='5' r='4' fill='none' stroke='%231B2420' stroke-width='2'/%3E%3Cpath d='M4 12a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z' fill='%23A8462A'/%3E%3Ccircle cx='12' cy='13' r='2.2' fill='%23F6F0E4'/%3E%3C/svg%3E">
@@ -18,49 +19,79 @@
 <main class="privacy-page">
   <p><a href="/">← Ospitalk</a></p>
   <h1>Informativa sulla privacy</h1>
-  <p class="meta">Ultimo aggiornamento: 26 ottobre 2026</p>
+  <p class="meta">Per gli host e per i visitatori del sito · artt. 13 e 14 del Regolamento (UE) 2016/679 ("GDPR") · Versione 2026-10-30</p>
 
-  <h2>1. Titolare del trattamento</h2>
-  <p>RGM S.r.l., con sede in Via Giuseppe Garibaldi 23, 95010 Santa Venerina (CT), P.IVA IT05047840870, Registro Imprese di Catania n. 05047840870, capitale sociale € 10.000,00, versato € 2.500,00, è titolare del trattamento dei dati degli host raccolti per la gestione del servizio Ospitalk.</p>
-  <p>Per domande o richieste relative alla privacy puoi scrivere a <a href="mailto:info@ospitalk.com">info@ospitalk.com</a>.</p>
+  <div class="box">
+    <p><strong>Sei un ospite?</strong> Questa informativa riguarda gli host e i visitatori del sito. Per i messaggi che invii a una struttura il titolare del trattamento è l'host: trovi la sua informativa nella pagina della struttura (indirizzo del tipo <code>/p/nome-struttura</code>), il cui link ricevi nel primo messaggio su WhatsApp. RGM tratta quei dati per conto dell'host secondo l'<a href="/dpa.html">accordo sul trattamento dei dati</a>.</p>
+  </div>
 
-  <h2>2. Dati degli host</h2>
-  <p>Quando un host attiva, configura e usa Ospitalk, trattiamo:</p>
+  <h2 id="titolare">1. Titolare del trattamento</h2>
+  <p><strong>RGM S.r.l.</strong>, Via Giuseppe Garibaldi 23, 95010 Santa Venerina (CT), P.IVA e Registro Imprese di Catania n. 05047840870, capitale sociale € 10.000,00, versato € 2.500,00. Contatto per la privacy: <a href="mailto:info@ospitalk.com">info@ospitalk.com</a>. RGM non ha nominato un responsabile della protezione dei dati (DPO), non essendo obbligata a farlo.</p>
+
+  <h2 id="dati">2. Quali dati trattiamo</h2>
+  <h3>Host: iscrizione e uso del servizio</h3>
   <ul>
-    <li>numero WhatsApp e nome;</li>
-    <li>nome della struttura, comune e codice CIN;</li>
-    <li>contenuti e informazioni relativi alla struttura, inclusi testi, fotografie e note vocali;</li>
-    <li>messaggi scambiati con Ospitalk durante la configurazione e l'uso del servizio.</li>
+    <li>numero WhatsApp e nome del profilo con cui scrivi ATTIVA OSPITALK;</li>
+    <li>prova dell'accettazione dei termini: versione dei documenti, data e ora della risposta ACCETTO, numero da cui l'hai inviata;</li>
+    <li>dati della struttura: nome, comune, indirizzo, CIN, e le informazioni che fornisci durante la configurazione (testi, foto, note vocali e loro trascrizioni);</li>
+    <li>i messaggi che scambi con Ospitalk, comprese le risposte che dai agli ospiti tramite il servizio;</li>
+    <li>dati tecnici di accesso alla pagina web dei servizi (data e ora, indirizzo IP, tipo di browser).</li>
   </ul>
-  <p>Il trattamento è necessario per eseguire il contratto relativo al servizio Ospitalk o per adottare misure precontrattuali richieste dall'host (art. 6, par. 1, lett. b del GDPR).</p>
-
-  <h2>3. Dati degli ospiti e ruoli privacy</h2>
-  <p>Quando un ospite scrive al numero WhatsApp messo a disposizione per la struttura, possono essere trattati il suo numero WhatsApp, il nome del profilo, i messaggi inviati e la lingua usata nella conversazione.</p>
-  <p><strong>Per questi dati l'host è il titolare del trattamento e RGM S.r.l. tratta i dati per conto dell'host in qualità di responsabile del trattamento ai sensi dell'art. 28 del GDPR.</strong> L'host determina finalità e modalità essenziali del trattamento ed è responsabile di fornire agli ospiti le informazioni previste dalla normativa. RGM S.r.l. tratta tali dati secondo le istruzioni dell'host e per erogare Ospitalk, compresa la generazione delle risposte, l'inoltro delle domande all'host e la consegna dei messaggi agli ospiti.</p>
-
-  <h2>4. Fornitori e responsabili</h2>
-  <p>Per offrire il servizio ci avvaliamo di fornitori che possono trattare dati per nostro conto, nei limiti delle rispettive funzioni:</p>
+  <h3>Host: pagamenti e fatturazione</h3>
   <ul>
-    <li><strong>Twilio</strong>, per l'invio e la ricezione dei messaggi WhatsApp;</li>
-    <li><strong>Meta/WhatsApp</strong>, quale piattaforma di messaggistica;</li>
-    <li><strong>Anthropic</strong>, per la generazione delle risposte automatiche e la lettura delle immagini;</li>
-    <li><strong>Deepgram</strong>, per la trascrizione delle note vocali;</li>
-    <li><strong>Contabo</strong>, per l'infrastruttura server situata nell'Unione europea, in Germania;</li>
-    <li><strong>Hostinger</strong>, per il servizio di posta elettronica.</li>
+    <li>nome e cognome o ragione sociale, codice fiscale o partita IVA, indirizzo, email, codice destinatario o PEC;</li>
+    <li>pacchetto acquistato, importi, date e stato dei pagamenti. I dati della carta sono raccolti direttamente da Stripe: RGM vede solo le ultime cifre e il circuito.</li>
   </ul>
-  <p>I fornitori sono autorizzati a trattare soltanto i dati necessari all'erogazione dei rispettivi servizi. Meta/WhatsApp può inoltre trattare alcuni dati secondo i propri termini e la propria informativa, in qualità di autonomo titolare per le attività di propria competenza.</p>
+  <h3>Chi ci contatta</h3>
+  <p>Se ci scrivi via email o WhatsApp trattiamo il tuo indirizzo o numero e il contenuto del messaggio.</p>
+  <h3>Visitatori del sito ospitalk.com</h3>
+  <ul>
+    <li>dati tecnici delle richieste (indirizzo IP, data e ora, pagina richiesta, browser), registrati dal servizio che pubblica il sito per ragioni di sicurezza;</li>
+    <li><strong>solo se acconsenti</strong>, dati di navigazione raccolti da Google Analytics (identificativo casuale del browser, pagine viste, durata della visita, provenienza, dispositivo e area geografica approssimativa). Dettagli nella <a href="/cookie.html">cookie policy</a>.</li>
+  </ul>
 
-  <h2>5. Trasferimenti di dati fuori dallo Spazio economico europeo</h2>
-  <p>Alcuni fornitori sono stabiliti negli Stati Uniti o possono trattare dati al di fuori dello Spazio economico europeo. Quando avvengono trasferimenti extra-UE, questi si basano sulle clausole contrattuali standard approvate dalla Commissione europea e/o sul Data Privacy Framework, secondo il meccanismo applicabile al singolo fornitore, oltre alle eventuali misure supplementari richieste dalla normativa.</p>
+  <h2 id="finalita">3. Perché li trattiamo e su quale base giuridica</h2>
+  <div class="table-scroll">
+    <table class="legal-table">
+      <thead><tr><th scope="col">Finalità</th><th scope="col">Base giuridica (art. 6 GDPR)</th></tr></thead>
+      <tbody>
+        <tr><td>Iscriverti, configurare la struttura, erogare il servizio, darti assistenza, inviarti comunicazioni di servizio (avvisi di scadenza, rinnovo, modifiche dei termini, cambi di fornitore)</td><td>Esecuzione del contratto o di misure precontrattuali richieste da te (lett. b)</td></tr>
+        <tr><td>Incassare i pagamenti, emettere fatture, tenere la contabilità</td><td>Esecuzione del contratto (lett. b) e obbligo di legge (lett. c)</td></tr>
+        <tr><td>Conservare la prova dell'accettazione dei termini e difendere i nostri diritti</td><td>Legittimo interesse a dimostrare il contratto e a tutelarci in giudizio (lett. f)</td></tr>
+        <tr><td>Proteggere il servizio e il numero WhatsApp condiviso da frodi e abusi; sicurezza del sito</td><td>Legittimo interesse alla sicurezza (lett. f)</td></tr>
+        <tr><td>Misurare le visite al sito con Google Analytics</td><td>Consenso (lett. a), revocabile in ogni momento da "Preferenze cookie"</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>I dati richiesti per l'iscrizione e il pagamento sono necessari: senza, non possiamo fornirti Ospitalk. Il consenso ad Analytics è facoltativo e rifiutarlo non ha conseguenze sull'uso del sito. Non inviamo pubblicità e non vendiamo i tuoi dati. Non prendiamo decisioni basate unicamente su trattamenti automatizzati che producano effetti giuridici su di te.</p>
+  <p>I tuoi contenuti e messaggi non sono usati per addestrare modelli di intelligenza artificiale, né da RGM né dai nostri fornitori.</p>
 
-  <h2>6. Conservazione</h2>
-  <p>I dati sono conservati per la durata del servizio e sono cancellati entro 90 giorni dalla cessazione, salvo che un periodo più lungo sia necessario per adempiere a obblighi di legge, tutelare diritti o gestire contestazioni.</p>
+  <h2 id="destinatari">4. A chi comunichiamo i dati</h2>
+  <p>I dati sono trattati dal personale autorizzato di RGM e dai fornitori elencati nella pagina <a href="/sub-responsabili.html">sub-responsabili e fornitori</a>, nominati responsabili del trattamento: tra gli altri Meta (WhatsApp), Twilio (invio dei messaggi), Anthropic (risposte automatiche), Deepgram (trascrizione delle note vocali), Contabo (server in Germania), Hostinger (posta), Stripe (pagamenti), Google (Analytics, solo con consenso) e GitHub (pubblicazione del sito). Meta e Stripe possono trattare alcuni dati anche come titolari autonomi, secondo le proprie informative.</p>
+  <p>I dati di fatturazione sono comunicati al nostro commercialista e all'Agenzia delle Entrate tramite il Sistema di Interscambio, come previsto dalla legge. Possiamo comunicare dati alle autorità solo se la legge lo impone.</p>
 
-  <h2>7. Diritti degli interessati</h2>
-  <p>Nei casi previsti, gli interessati possono esercitare i diritti riconosciuti dagli artt. 15-22 del GDPR, tra cui accesso, rettifica, cancellazione, limitazione del trattamento, portabilità, opposizione e il diritto a non essere sottoposti a decisioni basate unicamente su trattamenti automatizzati.</p>
-  <p>Gli host possono rivolgere le richieste a RGM S.r.l. scrivendo a <a href="mailto:info@ospitalk.com">info@ospitalk.com</a>. Gli ospiti devono rivolgersi in primo luogo all'host, quale titolare del trattamento; RGM S.r.l. collaborerà con l'host per consentire l'esercizio dei diritti.</p>
-  <p>È inoltre possibile proporre reclamo al <a href="https://www.garanteprivacy.it">Garante per la protezione dei dati personali</a>.</p>
+  <h2 id="trasferimenti">5. Trasferimenti fuori dallo Spazio economico europeo</h2>
+  <p>Alcuni fornitori sono negli Stati Uniti o possono trattare dati fuori dallo SEE. In questi casi il trasferimento si basa sulla decisione di adeguatezza relativa all'EU-U.S. Data Privacy Framework, per i fornitori certificati, o sulle clausole contrattuali standard approvate dalla Commissione europea. La garanzia usata per ogni fornitore è indicata nella pagina <a href="/sub-responsabili.html">sub-responsabili e fornitori</a>; puoi chiederne copia a <a href="mailto:info@ospitalk.com">info@ospitalk.com</a>.</p>
+
+  <h2 id="conservazione">6. Per quanto tempo li conserviamo</h2>
+  <ul>
+    <li><strong>Dati dell'account e della struttura, messaggi con Ospitalk:</strong> per la durata del contratto e fino a 90 giorni dalla sua fine, per consentirti di chiederne una copia.</li>
+    <li><strong>Iscrizioni non completate o prove non proseguite:</strong> cancellate 90 giorni dopo l'ultimo messaggio.</li>
+    <li><strong>Fatture, dati contabili e di pagamento:</strong> 10 anni, come richiesto dalla normativa civilistica e fiscale (art. 2220 c.c.).</li>
+    <li><strong>Prova dell'accettazione dei termini:</strong> 10 anni dalla fine del contratto, termine ordinario di prescrizione.</li>
+    <li><strong>Messaggi di contatto:</strong> per il tempo necessario a rispondere e comunque non oltre 2 anni, salvo che diventino parte del contratto.</li>
+    <li><strong>Google Analytics:</strong> i cookie durano al massimo 13 mesi; i dati di navigazione sono conservati in Analytics per 14 mesi.</li>
+  </ul>
+  <p>I dati degli ospiti seguono i tempi dell'<a href="/dpa.html">accordo sul trattamento dei dati</a>: sono cancellati 90 giorni dopo il check-out.</p>
+
+  <h2 id="diritti">7. I tuoi diritti</h2>
+  <p>Puoi chiedere in ogni momento di accedere ai tuoi dati, rettificarli, cancellarli, limitarne il trattamento, riceverli in un formato leggibile (portabilità) e opporti ai trattamenti basati sul legittimo interesse (artt. 15-22 GDPR). Puoi revocare il consenso ad Analytics in qualsiasi momento da "Preferenze cookie" in fondo a ogni pagina, senza che questo incida sulla liceità del trattamento precedente.</p>
+  <p>Scrivi a <a href="mailto:info@ospitalk.com">info@ospitalk.com</a> o su WhatsApp al +39 327 748 5039: ti rispondiamo entro un mese. Gli ospiti devono rivolgersi in primo luogo all'host; se scrivono a noi, inoltriamo la richiesta all'host.</p>
+  <p>Se ritieni che il trattamento violi la normativa puoi proporre reclamo al <a href="https://www.garanteprivacy.it">Garante per la protezione dei dati personali</a>, Piazza Venezia 11, 00187 Roma, o all'autorità del Paese in cui risiedi o lavori.</p>
+
+  <h2 id="modifiche">8. Modifiche</h2>
+  <p>Se cambiamo questa informativa in modo rilevante, avvisiamo gli host su WhatsApp o via email prima che le modifiche si applichino. La versione in vigore è sempre su questa pagina.</p>
 </main>
-<footer class="site-foot"><div class="wrap"><div><strong>Ospitalk</strong> è un servizio di RGM S.r.l.<br>Via Giuseppe Garibaldi 23, 95010 Santa Venerina (CT) · P.IVA IT05047840870<br>Registro Imprese di Catania n. 05047840870 · Capitale sociale € 10.000,00, versato € 2.500,00</div><nav class="foot-nav" aria-label="Pagine"><a href="/case-vacanza/">Case vacanza</a><a href="/bnb/">B&amp;B</a><a href="/affittacamere/">Affittacamere</a><a href="/#faq">Domande frequenti</a></nav><div class="footer-links"><a href="mailto:info@ospitalk.com">info@ospitalk.com</a> · Privacy<br>Scrivi <strong>SERVIZI</strong> su WhatsApp per ricevere il link di accesso.</div></div></footer>
+<footer class="site-foot"><div class="wrap"><div><strong>Ospitalk</strong> è un servizio di RGM S.r.l.<br>Via Giuseppe Garibaldi 23, 95010 Santa Venerina (CT) · P.IVA IT05047840870<br>Registro Imprese di Catania n. 05047840870 · Capitale sociale € 10.000,00, versato € 2.500,00</div><nav class="foot-nav" aria-label="Pagine"><a href="/case-vacanza/">Case vacanza</a><a href="/bnb/">B&amp;B</a><a href="/affittacamere/">Affittacamere</a><a href="/#faq">Domande frequenti</a></nav><div class="footer-links"><a href="mailto:info@ospitalk.com">info@ospitalk.com</a><br><a href="/privacy.html">Privacy</a> · <a href="/cookie.html">Cookie</a> · <a href="/termini.html">Termini di servizio</a><br><a href="/dpa.html">Trattamento dati (DPA)</a> · <a href="/sub-responsabili.html">Sub-responsabili</a><br><button type="button" class="link-btn" data-cookie-prefs>Preferenze cookie</button><br>Scrivi <strong>SERVIZI</strong> su WhatsApp per ricevere il link di accesso.</div></div></footer>
 </body>
 </html>
