@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <!-- Icone a tratto singolo, colore ereditato (currentColor). Uso: <svg><use href="/icons.svg#i-key"/></svg> -->
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M5 4h14a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-9l-5 4v-4H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z"/><path d="M8 9h8M8 12h5"/></symbol>
+  <symbol id="i-mic" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M8.5 21h7"/></symbol>
+  <symbol id="i-handoff" viewBox="0 0 24 24"><circle cx="17" cy="7.5" r="3"/><path d="M12.5 20c0-2.8 2-4.8 4.5-4.8s4.5 2 4.5 4.8"/><path d="M2.5 12h7.5m-3-3 3 3-3 3"/></symbol>
+  <symbol id="i-save" viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4-6 4z"/><path d="m9 10 2 2 4-4"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3z"/></symbol>
+  <symbol id="i-cloche" viewBox="0 0 24 24"><path d="M3 18h18M5 18a7 7 0 0 1 14 0M12 9V7M10 7h4"/></symbol>
+  <symbol id="i-wifi" viewBox="0 0 24 24"><path d="M2.5 9a14 14 0 0 1 19 0M5.5 12.5a9.5 9.5 0 0 1 13 0M8.5 16a5 5 0 0 1 7 0"/><circle cx="12" cy="19.5" r=".8"/></symbol>
+  <symbol id="i-bin" viewBox="0 0 24 24"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13M10 11v6M14 11v6"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></symbol>
+  <symbol id="i-suitcase" viewBox="0 0 24 24"><rect x="4" y="7" width="16" height="12" rx="2"/><path d="M9 7V4h6v3M8 7v12M16 7v12M7 21.5h2M15 21.5h2"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-bed" viewBox="0 0 24 24"><path d="M3 19V6M3 15h18v4M21 15v-2a3 3 0 0 0-3-3h-7v5"/><circle cx="7" cy="12" r="2"/></symbol>
+  <symbol id="i-cup" viewBox="0 0 24 24"><path d="M4 10h13v3a6 6 0 0 1-6 6h-1a6 6 0 0 1-6-6zM17 11h1.5a2.5 2.5 0 0 1 0 5H17M8 3.5c0 1.5 1 1.5 1 3M12 3.5c0 1.5 1 1.5 1 3"/></symbol>
+  <symbol id="i-map" viewBox="0 0 24 24"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2zM9 4v14M15 6v14"/></symbol>
+  <symbol id="i-door" viewBox="0 0 24 24"><path d="M6 21V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v17M3 21h18"/><circle cx="15" cy="12.5" r=".9"/></symbol>
+  <symbol id="i-linen" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="5" rx="1.5"/><rect x="4" y="10" width="16" height="5" rx="1.5"/><rect x="4" y="15" width="16" height="5" rx="1.5"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M19.5 14.5A8 8 0 1 1 9.5 4.5a6.5 6.5 0 0 0 10 10z"/></symbol>
+  <symbol id="i-key" viewBox="0 0 24 24"><circle cx="7.5" cy="16.5" r="4"/><path d="m10.4 13.6 9.1-9.1M16 8l2.5 2.5M13.5 10.5l2 2"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+  <!-- QR decorativo della targhetta (non scansionabile): il QR reale è in /qr-attiva.svg -->
+  <symbol id="i-qrdeco" viewBox="0 0 21 21"><path fill-rule="evenodd" stroke="none" fill="currentColor" d="M0 0h7v7h-7zM1 1v5h5v-5zM2 2h3v3h-3zM14 0h7v7h-7zM15 1v5h5v-5zM16 2h3v3h-3zM0 14h7v7h-7zM1 15v5h5v-5zM2 16h3v3h-3zM8 0h1v1h-1zM10 1h1v1h-1zM9 2h1v1h-1zM12 2h1v1h-1zM8 4h1v1h-1zM11 4h1v1h-1zM10 6h1v1h-1zM12 6h1v1h-1zM9 8h1v1h-1zM0 8h1v1h-1zM2 9h1v1h-1zM4 8h1v1h-1zM6 9h1v1h-1zM8 10h1v1h-1zM10 9h1v1h-1zM12 10h1v1h-1zM14 8h1v1h-1zM16 9h1v1h-1zM18 8h1v1h-1zM20 10h1v1h-1zM15 11h1v1h-1zM17 12h1v1h-1zM19 12h1v1h-1zM9 12h1v1h-1zM11 13h1v1h-1zM13 12h1v1h-1zM8 14h1v1h-1zM10 15h1v1h-1zM12 16h1v1h-1zM9 17h1v1h-1zM11 18h1v1h-1zM8 20h1v1h-1zM13 19h1v1h-1zM14 14h1v1h-1zM16 15h1v1h-1zM18 14h1v1h-1zM20 16h1v1h-1zM15 17h1v1h-1zM17 18h1v1h-1zM19 19h1v1h-1zM14 20h1v1h-1zM20 20h1v1h-1zM16 20h1v1h-1zM1 10h1v1h-1zM3 11h1v1h-1zM5 12h1v1h-1zM0 12h1v1h-1zM12 8h1v1h-1zM11 10h1v1h-1zM13 9h1v1h-1z"/></symbol>
+  <symbol id="i-wave" viewBox="0 0 120 28"><path stroke-width="3" d="M2 12v4M7 10v8M12 7v14M17 4v20M22 8v12M27 11v6M32 9v10M37 5v18M42 2v24M47 6v16M52 10v8M57 8v12M62 4v20M67 7v14M72 11v6M77 9v10M82 6v16M87 3v22M92 8v12M97 10v8M102 12v4M107 9v10M112 11v6M117 12v4"/></symbol>
+</svg>
