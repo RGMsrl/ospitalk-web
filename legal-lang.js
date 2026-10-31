@@ -3,7 +3,7 @@
 (function () {
   var drafts = {
     en: ["termini.html", "privacy.html", "dpa.html"],
-    es: ["termini.html"],
+    es: ["termini.html", "privacy.html", "dpa.html"],
   };
   var lang = new URLSearchParams(location.search).get("lang");
   var page = location.pathname.replace(/^\//, "") || "index.html";
