@@ -7,7 +7,11 @@
     pt: ["termini.html", "privacy.html", "dpa.html"],
   };
   var lang = new URLSearchParams(location.search).get("lang");
-  var page = location.pathname.replace(/^\//, "") || "index.html";
+  // GitHub Pages serves /termini.html also as /termini and /termini/.
+  var page = location.pathname.replace(/^\/+|\/+$/g, "") || "index.html";
+  if (!/\.html$/.test(page)) {
+    page += ".html";
+  }
   if (lang && drafts[lang] && drafts[lang].indexOf(page) !== -1) {
     location.replace("/" + lang + "/" + page + location.hash);
   }
