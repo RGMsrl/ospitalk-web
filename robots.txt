@@ -1,4 +1,23 @@
+# Ospitalk: accesso libero a motori di ricerca e assistenti AI
 User-agent: *
+Allow: /
+
+# Motori di ricerca e assistenti AI (elencati esplicitamente)
+User-agent: Googlebot
+User-agent: Google-Extended
+User-agent: Bingbot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: GPTBot
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: ClaudeBot
+User-agent: Applebot
+User-agent: Applebot-Extended
+User-agent: DuckAssistBot
+User-agent: MistralAI-User
 Allow: /
 
 Sitemap: https://ospitalk.com/sitemap.xml

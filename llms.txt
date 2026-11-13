@@ -1,0 +1,31 @@
+# Ospitalk
+
+> Ospitalk è un assistente WhatsApp per case vacanza, B&B e affittacamere in Italia. Risponde automaticamente su WhatsApp alle domande degli ospiti (check-in, Wi-Fi, regole della casa, colazione, parcheggio) e inoltra all'host, sul suo WhatsApp, solo le domande a cui non sa rispondere. Si attiva e si configura interamente in chat, senza installare app. Prodotto di RGM S.r.l. (P.IVA IT05047840870, Santa Venerina, Catania).
+
+## Come funziona
+
+- L'host scrive "ATTIVA OSPITALK" al numero WhatsApp +39 327 748 5039 e configura la struttura rispondendo a domande guidate (testi, foto, note vocali).
+- Gli ospiti scrivono dal proprio WhatsApp, tramite il QR code della struttura. Non devono installare nulla.
+- Se l'assistente non conosce la risposta, la domanda arriva all'host su WhatsApp; la risposta dell'host viene consegnata all'ospite e può essere salvata per le volte successive.
+- L'Area servizi web serve solo a configurare servizi extra a pagamento (transfer, colazione, late check-out).
+- Per le strutture italiane chiede il CIN in fase di configurazione, quando previsto.
+
+## Prezzi (per struttura, IVA inclusa)
+
+- 30 giorni di prova gratuita, senza carta di pagamento.
+- Fondatori (prime 100 strutture): €99/anno, stesso prezzo a ogni rinnovo.
+- Stagione: €99 per 180 giorni, pagamento unico.
+- Annuale: €149 per 365 giorni, pagamento unico.
+- Mensile: €19,90 al mese, disdetta quando si vuole.
+
+## Pagine
+
+- [Home](https://ospitalk.com/): panoramica, funzionamento, prezzi e FAQ
+- [Case vacanza](https://ospitalk.com/case-vacanza/): self check-in, Wi-Fi, regole della casa
+- [B&B](https://ospitalk.com/bnb/): colazione, orari di arrivo, informazioni sul soggiorno
+- [Affittacamere](https://ospitalk.com/affittacamere/): accessi, camere e spazi comuni
+
+## Informazioni legali
+
+- [Termini di servizio](https://ospitalk.com/termini.html)
+- [Privacy](https://ospitalk.com/privacy.html)
