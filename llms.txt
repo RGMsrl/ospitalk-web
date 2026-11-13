@@ -20,12 +20,12 @@
 
 ## Pagine
 
-- [Home](https://ospitalk.com/): panoramica, funzionamento, prezzi e FAQ
-- [Case vacanza](https://ospitalk.com/case-vacanza/): self check-in, Wi-Fi, regole della casa
-- [B&B](https://ospitalk.com/bnb/): colazione, orari di arrivo, informazioni sul soggiorno
-- [Affittacamere](https://ospitalk.com/affittacamere/): accessi, camere e spazi comuni
+- [Home](https://ospitalk.it/): panoramica, funzionamento, prezzi e FAQ
+- [Case vacanza](https://ospitalk.it/case-vacanza/): self check-in, Wi-Fi, regole della casa
+- [B&B](https://ospitalk.it/bnb/): colazione, orari di arrivo, informazioni sul soggiorno
+- [Affittacamere](https://ospitalk.it/affittacamere/): accessi, camere e spazi comuni
 
 ## Informazioni legali
 
-- [Termini di servizio](https://ospitalk.com/termini.html)
-- [Privacy](https://ospitalk.com/privacy.html)
+- [Termini di servizio](https://ospitalk.it/termini.html)
+- [Privacy](https://ospitalk.it/privacy.html)
