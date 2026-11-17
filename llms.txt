@@ -1,22 +1,23 @@
 # Ospitalk
 
-> Ospitalk è un assistente WhatsApp per case vacanza, B&B e affittacamere in Italia. Risponde automaticamente su WhatsApp alle domande degli ospiti (check-in, Wi-Fi, regole della casa, colazione, parcheggio) e inoltra all'host, sul suo WhatsApp, solo le domande a cui non sa rispondere. Si attiva e si configura interamente in chat, senza installare app. Prodotto di RGM S.r.l. (P.IVA IT05047840870, Santa Venerina, Catania).
+> Ospitalk è un assistente WhatsApp per case vacanza, B&B e affittacamere in Italia. Risponde automaticamente su WhatsApp alle domande degli ospiti, nella loro lingua, con le informazioni date dall'host (check-in, Wi-Fi, regole della casa, colazione, parcheggio) e inoltra all'host, sul suo WhatsApp, solo le domande a cui non sa rispondere. Si attiva e si configura in chat, senza app da scaricare. Prodotto di RGM S.r.l. (P.IVA IT05047840870, Santa Venerina, Catania).
 
 ## Come funziona
 
 - L'host scrive "ATTIVA OSPITALK" al numero WhatsApp +39 327 748 5039 e configura la struttura rispondendo a domande guidate (testi, foto, note vocali).
-- Gli ospiti scrivono dal proprio WhatsApp, tramite il QR code della struttura. Non devono installare nulla.
+- Gli ospiti che prenotano tramite le piattaforme trovano in struttura un QR code: inquadrarlo è facoltativo e apre WhatsApp. A chi prenota direttamente l'host può inviare il link della struttura prima dell'arrivo. Ospitalk non invia link nei messaggi delle piattaforme di prenotazione.
+- L'host non riceve il numero di telefono dell'ospite: vede il nome del profilo WhatsApp oppure "Ospite n." con un numero progressivo.
 - Se l'assistente non conosce la risposta, la domanda arriva all'host su WhatsApp; la risposta dell'host viene consegnata all'ospite e può essere salvata per le volte successive.
-- L'Area servizi web serve solo a configurare servizi extra a pagamento (transfer, colazione, late check-out).
-- Per le strutture italiane chiede il CIN in fase di configurazione, quando previsto.
+- L'Area servizi web serve a configurare servizi extra a pagamento (transfer, colazione, late check-out).
+- Durante la configurazione chiede il CIN della struttura (facoltativo, si può saltare). Non invia le schedine ad Alloggiati Web e non è pensato per raccogliere documenti d'identità.
 
 ## Prezzi (per struttura, IVA inclusa)
 
 - 30 giorni di prova gratuita, senza carta di pagamento.
-- Fondatori (prime 100 strutture): €99/anno, stesso prezzo a ogni rinnovo.
-- Stagione: €99 per 180 giorni, pagamento unico.
-- Annuale: €149 per 365 giorni, pagamento unico.
-- Mensile: €19,90 al mese, disdetta quando si vuole.
+- Stagione 2027: €74,50, pagamento unico in anticipo per la stagione maggio-settembre 2027 (se pagata prima, valida da subito fino al 30/09/2027). Prezzo di lancio per le prime 100 strutture, rimborso totale entro 14 giorni.
+- Annuale: €99, pagamento unico; se pagato prima del 01/05/2027 vale fino al 30/04/2028.
+- Mensile: €19,90 al mese, disdetta quando si vuole; se attivato durante la prova, il primo addebito arriva alla fine della prova.
+- Uso corretto: tetto di 150 risposte automatiche al mese per struttura; oltre il tetto le domande vanno all'host fino al mese successivo.
 
 ## Pagine
 
@@ -24,8 +25,11 @@
 - [Case vacanza](https://ospitalk.com/case-vacanza/): self check-in, Wi-Fi, regole della casa
 - [B&B](https://ospitalk.com/bnb/): colazione, orari di arrivo, informazioni sul soggiorno
 - [Affittacamere](https://ospitalk.com/affittacamere/): accessi, camere e spazi comuni
+- [Guida al CIN](https://ospitalk.com/guida-cin/): chi deve avere il CIN, dove esporlo, requisiti di sicurezza e sanzioni (art. 13-ter DL 145/2023)
+- [Accedi](https://app.ospitalk.com/accounts/login/): area riservata degli host
 
 ## Informazioni legali
 
 - [Termini di servizio](https://ospitalk.com/termini.html)
 - [Privacy](https://ospitalk.com/privacy.html)
+- [Cookie](https://ospitalk.com/cookie.html)
