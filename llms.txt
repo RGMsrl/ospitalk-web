@@ -14,7 +14,7 @@
 ## Prezzi (per struttura, IVA inclusa)
 
 - 30 giorni di prova gratuita, senza carta di pagamento.
-- Stagione 2027: €74,50, pagamento unico in anticipo per la stagione maggio-settembre 2027 (se pagata prima, valida da subito fino al 30/09/2027). Prezzo di lancio per i primi 100 host, rimborso totale entro 14 giorni.
+- Stagione 2027: €74,50, pagamento unico in anticipo per la stagione maggio-settembre 2027 (se pagata prima, valida da subito fino al 30/09/2027). Prezzo di lancio per le prime 100 strutture, rimborso totale entro 14 giorni.
 - Annuale: €99, pagamento unico; se pagato prima del 01/05/2027 vale fino al 30/04/2028.
 - Mensile: €19,90 al mese, disdetta quando si vuole; se attivato durante la prova, il primo addebito arriva alla fine della prova.
 - Uso corretto: tetto di 150 risposte automatiche al mese per struttura; oltre il tetto le domande vanno all'host fino al mese successivo.
