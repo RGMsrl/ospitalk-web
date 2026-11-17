@@ -20,4 +20,4 @@ User-agent: DuckAssistBot
 User-agent: MistralAI-User
 Allow: /
 
-Sitemap: https://ospitalk.com/sitemap.xml
+Sitemap: https://ospitalk.it/sitemap.xml
