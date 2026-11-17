@@ -2,7 +2,12 @@
    Va incluso nel <head> di ogni pagina, prima di qualsiasi altro script Google.
    Google Analytics si carica solo dopo "Accetta" (Linee guida Garante 10/06/2021). */
 (function () {
-  var GA_ID = ''; // ID di misurazione GA4 (es. 'G-XXXXXXXXXX'); vuoto = Analytics spento
+  // Per attivare Analytics basta inserire qui l'ID di misurazione GA4 (es. 'G-XXXXXXXXXX'):
+  // tutte le pagine includono già questo file come primo script del <head>.
+  // Vuoto = Analytics spento (il banner resta, la scelta viene ricordata).
+  // Nella proprietà GA4 impostare la conservazione dati a 14 mesi (come scritto in privacy.html)
+  // e lasciare disattivati Google Signals e personalizzazione annunci.
+  var GA_ID = '';
   var KEY = 'ospitalk-consent';
   var MAX_AGE = 182 * 24 * 60 * 60 * 1000; // 6 mesi, poi il banner si ripropone
   var memory = null; // ripiego se localStorage non è disponibile
