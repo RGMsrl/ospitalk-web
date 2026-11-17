@@ -21,15 +21,15 @@
 
 ## Pagine
 
-- [Home](https://ospitalk.com/): panoramica, funzionamento, prezzi e FAQ
-- [Case vacanza](https://ospitalk.com/case-vacanza/): self check-in, Wi-Fi, regole della casa
-- [B&B](https://ospitalk.com/bnb/): colazione, orari di arrivo, informazioni sul soggiorno
-- [Affittacamere](https://ospitalk.com/affittacamere/): accessi, camere e spazi comuni
-- [Guida al CIN](https://ospitalk.com/guida-cin/): chi deve avere il CIN, dove esporlo, requisiti di sicurezza e sanzioni (art. 13-ter DL 145/2023)
+- [Home](https://ospitalk.it/): panoramica, funzionamento, prezzi e FAQ
+- [Case vacanza](https://ospitalk.it/case-vacanza/): self check-in, Wi-Fi, regole della casa
+- [B&B](https://ospitalk.it/bnb/): colazione, orari di arrivo, informazioni sul soggiorno
+- [Affittacamere](https://ospitalk.it/affittacamere/): accessi, camere e spazi comuni
+- [Guida al CIN](https://ospitalk.it/guida-cin/): chi deve avere il CIN, dove esporlo, requisiti di sicurezza e sanzioni (art. 13-ter DL 145/2023)
 - [Accedi](https://app.ospitalk.com/accounts/login/): area riservata degli host
 
 ## Informazioni legali
 
-- [Termini di servizio](https://ospitalk.com/termini.html)
-- [Privacy](https://ospitalk.com/privacy.html)
-- [Cookie](https://ospitalk.com/cookie.html)
+- [Termini di servizio](https://ospitalk.it/termini.html)
+- [Privacy](https://ospitalk.it/privacy.html)
+- [Cookie](https://ospitalk.it/cookie.html)
