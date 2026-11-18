@@ -26,7 +26,7 @@
 - [B&B](https://ospitalk.it/bnb/): colazione, orari di arrivo, informazioni sul soggiorno
 - [Affittacamere](https://ospitalk.it/affittacamere/): accessi, camere e spazi comuni
 - [Guida al CIN](https://ospitalk.it/guida-cin/): chi deve avere il CIN, dove esporlo, requisiti di sicurezza e sanzioni (art. 13-ter DL 145/2023)
-- [Accedi](https://app.ospitalk.com/accounts/login/): area riservata degli host
+- [Accedi](https://app.ospitalk.it/accounts/login/): area riservata degli host
 
 ## Informazioni legali
 
