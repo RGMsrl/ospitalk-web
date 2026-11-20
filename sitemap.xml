@@ -1,20 +1,708 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ospitalk.it/</loc>
-    <lastmod>2026-11-18</lastmod>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/en/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/de/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/fr/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/es/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/pt/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/nl/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/pl/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/zh/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/ja/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/ru/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/"/>
   </url>
   <url>
     <loc>https://ospitalk.it/case-vacanza/</loc>
-    <lastmod>2026-11-18</lastmod>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/case-vacanza/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/en/case-vacanza/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/case-vacanza/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/de/case-vacanza/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/case-vacanza/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/fr/case-vacanza/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/case-vacanza/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/es/case-vacanza/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/case-vacanza/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/pt/case-vacanza/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/case-vacanza/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/nl/case-vacanza/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/case-vacanza/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/pl/case-vacanza/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/case-vacanza/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/zh/case-vacanza/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/case-vacanza/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/ja/case-vacanza/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/case-vacanza/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/ru/case-vacanza/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/case-vacanza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/case-vacanza/"/>
   </url>
   <url>
     <loc>https://ospitalk.it/bnb/</loc>
-    <lastmod>2026-11-18</lastmod>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/bnb/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/en/bnb/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/bnb/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/de/bnb/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/bnb/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/fr/bnb/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/bnb/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/es/bnb/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/bnb/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/pt/bnb/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/bnb/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/nl/bnb/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/bnb/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/pl/bnb/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/bnb/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/zh/bnb/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/bnb/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/ja/bnb/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/bnb/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/ru/bnb/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/bnb/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/bnb/"/>
   </url>
   <url>
     <loc>https://ospitalk.it/affittacamere/</loc>
-    <lastmod>2026-11-18</lastmod>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/affittacamere/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/en/affittacamere/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/affittacamere/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/de/affittacamere/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/affittacamere/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/fr/affittacamere/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/affittacamere/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/es/affittacamere/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/affittacamere/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/pt/affittacamere/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/affittacamere/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/nl/affittacamere/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/affittacamere/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/pl/affittacamere/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/affittacamere/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/zh/affittacamere/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/affittacamere/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/ja/affittacamere/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/affittacamere/"/>
+  </url>
+  <url>
+    <loc>https://ospitalk.it/ru/affittacamere/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ospitalk.it/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ospitalk.it/en/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ospitalk.it/de/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ospitalk.it/fr/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ospitalk.it/es/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ospitalk.it/pt/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ospitalk.it/nl/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ospitalk.it/pl/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://ospitalk.it/zh/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ospitalk.it/ja/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ospitalk.it/ru/affittacamere/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ospitalk.it/affittacamere/"/>
   </url>
   <url>
     <loc>https://ospitalk.it/guida-cin/</loc>

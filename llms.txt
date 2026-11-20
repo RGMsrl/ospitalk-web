@@ -22,6 +22,17 @@
 ## Pagine
 
 - [Home](https://ospitalk.it/): panoramica, funzionamento, prezzi e FAQ
+- [Italiano](https://ospitalk.it/)
+- [English](https://ospitalk.it/en/)
+- [Deutsch](https://ospitalk.it/de/)
+- [Français](https://ospitalk.it/fr/)
+- [Español](https://ospitalk.it/es/)
+- [Português](https://ospitalk.it/pt/)
+- [Nederlands](https://ospitalk.it/nl/)
+- [Polski](https://ospitalk.it/pl/)
+- [中文](https://ospitalk.it/zh/)
+- [日本語](https://ospitalk.it/ja/)
+- [Русский](https://ospitalk.it/ru/)
 - [Case vacanza](https://ospitalk.it/case-vacanza/): self check-in, Wi-Fi, regole della casa
 - [B&B](https://ospitalk.it/bnb/): colazione, orari di arrivo, informazioni sul soggiorno
 - [Affittacamere](https://ospitalk.it/affittacamere/): accessi, camere e spazi comuni
