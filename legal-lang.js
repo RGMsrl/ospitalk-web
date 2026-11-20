@@ -3,6 +3,8 @@
 (function () {
   var drafts = {
     en: ["termini.html", "privacy.html", "dpa.html"],
+    de: ["termini.html", "privacy.html", "dpa.html"],
+    fr: ["termini.html", "privacy.html", "dpa.html"],
     es: ["termini.html", "privacy.html", "dpa.html"],
     pt: ["termini.html", "privacy.html", "dpa.html"],
   };
