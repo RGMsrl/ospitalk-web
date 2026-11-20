@@ -13,7 +13,7 @@ T = {
     "qr_alt": "Kod QR, który otwiera WhatsAppa z wiadomością ATTIVA OSPITALK",
     "qr_cap": "Jesteś przy komputerze? Zeskanuj telefonem.",
     "trial": "30 dni za darmo, bez karty płatniczej.",
-    "placard_text": "Zeskanuj i napisz do nas na WhatsAppie",
+    "placard_text": "Prosimy zeskanować kod QR i napisać do nas na WhatsAppie",
     "e_start": "Zacznij od czatu",
 
     "title": "Automatyczne odpowiedzi na WhatsAppie dla apartamentów we Włoszech | Ospitalk",
@@ -30,7 +30,7 @@ T = {
     "scene_cap": "Znane odpowiedzi są wysyłane automatycznie. Nowe pytanie trafia na Twojego WhatsAppa: odpowiadasz bez zmiany narzędzia, a odpowiedź może zostać na następny raz.",
     "e1": "Jeden kanał", "h2_1": "Twoja praca zostaje na WhatsAppie",
     "ledger": [
-        ("Jakie jest hasło do Wi-Fi?", "Znane odpowiedzi wychodzą automatycznie, nawet gdy nie możesz sięgnąć po telefon.", "Odpowiada sam"),
+        ("Jakie jest hasło do Wi-Fi?", "Znane odpowiedzi są wysyłane automatycznie, nawet gdy nie możesz sięgnąć po telefon.", "Odpowiada sam"),
         ("Czy możemy zostawić bagaże wcześniej?", "Jeśli brakuje odpowiedzi, pytanie trafia do Ciebie na WhatsAppie, a Ty decydujesz, co odpisać.", "Pyta Ciebie"),
         ("Gdzie możemy zaparkować?", "Gość dostaje wskazówki oparte na informacjach podanych przez Ciebie podczas konfiguracji.", "Według Twoich wskazówek"),
     ],
@@ -64,7 +64,7 @@ T = {
         ("Pokoje gościnne", "Wejścia, części wspólne, wymiana pościeli i osobne wskazówki dla każdego pokoju.", "Ospitalk dla pokoi gościnnych →"),
     ],
     "prices": {
-        "h2": "30 dni za darmo, potem wybierasz, jak dalej",
+        "h2": "30 dni za darmo, potem decydujesz, co dalej",
         "lead": "W okresie próbnym nie prosimy o kartę płatniczą. Jeśli na koniec nie wybierzesz planu, automatyczne odpowiedzi się zatrzymają i nic nie zapłacisz.",
         "launch_label": "Cena na start · pierwsze 100 obiektów",
         "season": "Sezon 2027",

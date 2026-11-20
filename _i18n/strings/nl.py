@@ -13,7 +13,7 @@ T = {
     "qr_alt": "QR-code die WhatsApp opent met het bericht ATTIVA OSPITALK",
     "qr_cap": "Zit je achter de computer? Scan met je telefoon.",
     "trial": "30 dagen gratis, geen creditcard nodig.",
-    "placard_text": "Scan en stuur ons een WhatsApp",
+    "placard_text": "Scan de QR-code en stuur ons een WhatsApp-bericht",
     "e_start": "Begin in de chat",
 
     "title": "Automatische WhatsApp-antwoorden voor vakantiewoningen in Italië | Ospitalk",
@@ -31,8 +31,8 @@ T = {
     "e1": "Eén kanaal", "h2_1": "Je werk blijft in WhatsApp",
     "ledger": [
         ("Wat is het wifi-wachtwoord?", "Bekende antwoorden worden automatisch verstuurd, ook als jij je telefoon even niet kunt pakken.", "Antwoordt zelf"),
-        ("Mogen we de bagage eerder brengen?", "Ontbreekt het antwoord, dan komt de vraag via WhatsApp bij jou en beslis jij wat je zegt.", "Vraagt het jou"),
-        ("Waar kunnen we parkeren?", "De gast krijgt een routebeschrijving op basis van wat je bij het instellen hebt verteld.", "Volgens jouw info"),
+        ("Mogen we de bagage eerder brengen?", "Ontbreekt het antwoord, dan komt de vraag via WhatsApp bij jou en beslis jij wat je zegt.", "Vraagt het aan jou"),
+        ("Waar kunnen we parkeren?", "De gast krijgt een routebeschrijving op basis van wat je bij het instellen hebt verteld.", "Op basis van jouw informatie"),
     ],
     "h2_2": "Van activeren tot antwoorden, in vier stappen",
     "lead_2": "Geen beheersoftware om te leren: alles begint in de chat die je al elke dag gebruikt.",
