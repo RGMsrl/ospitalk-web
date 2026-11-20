@@ -6,7 +6,7 @@
 <script src="/consent.js"></script>
 <script src="/lang-menu.js" defer></script>
 <title>Risposte automatiche agli ospiti su WhatsApp | Ospitalk</title>
-<meta name="description" content="Assistente WhatsApp per case vacanza, B&amp;B e affittacamere: risponde agli ospiti nella loro lingua e ti gira solo le domande nuove. 30 giorni gratis.">
+<meta name="description" content="Assistente WhatsApp per strutture ricettive: risponde nella lingua dell'ospite, anche ai vocali, e ti inoltra nella tua lingua solo le domande nuove.">
 <link rel="canonical" href="https://ospitalk.it/">
 <link rel="alternate" hreflang="it" href="https://ospitalk.it/">
 <link rel="alternate" hreflang="en" href="https://ospitalk.it/en/">
@@ -24,7 +24,7 @@
 <meta property="og:locale" content="it_IT">
 <meta property="og:site_name" content="Ospitalk">
 <meta property="og:title" content="Risposte automatiche agli ospiti su WhatsApp | Ospitalk">
-<meta property="og:description" content="Assistente WhatsApp per case vacanza, B&amp;B e affittacamere: risponde agli ospiti nella loro lingua e ti gira solo le domande nuove. 30 giorni gratis.">
+<meta property="og:description" content="Assistente WhatsApp per strutture ricettive: risponde nella lingua dell'ospite, anche ai vocali, e ti inoltra nella tua lingua solo le domande nuove.">
 <meta property="og:url" content="https://ospitalk.it/">
 <meta property="og:image" content="https://ospitalk.it/og-image.png">
 <meta property="og:image:width" content="1200">
@@ -32,7 +32,7 @@
 <meta property="og:image:alt" content="Ospitalk, l'assistente WhatsApp per l'ospitalità">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Risposte automatiche agli ospiti su WhatsApp | Ospitalk">
-<meta name="twitter:description" content="Assistente WhatsApp per case vacanza, B&amp;B e affittacamere: risponde agli ospiti nella loro lingua e ti gira solo le domande nuove. 30 giorni gratis.">
+<meta name="twitter:description" content="Assistente WhatsApp per strutture ricettive: risponde nella lingua dell'ospite, anche ai vocali, e ti inoltra nella tua lingua solo le domande nuove.">
 <meta name="twitter:image" content="https://ospitalk.it/og-image.png">
 <meta name="twitter:image:alt" content="Ospitalk, l'assistente WhatsApp per l'ospitalità">
 <meta name="theme-color" content="#F6F0E4">
@@ -99,8 +99,9 @@
    "featureList": [
     "Risposte automatiche agli ospiti su WhatsApp",
     "Configurazione in chat con testi, foto e note vocali",
-    "Domande nuove inoltrate all'host su WhatsApp",
+    "Domande nuove inoltrate all'host su WhatsApp nella lingua scelta",
     "Risposte nella lingua dell'ospite",
+    "Comprensione delle note vocali degli ospiti",
     "Numero di telefono dell'ospite non comunicato all'host",
     "QR in struttura e link per le prenotazioni dirette",
     "Area servizi per extra a pagamento"
@@ -187,6 +188,14 @@
     },
     {
      "@type": "Question",
+     "name": "In quali lingue risponde Ospitalk?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Ospitalk risponde in Italiano, English, Deutsch, Français, Español, Português, Nederlands, Polski, 中文, 日本語 e Русский, anche se non parli la lingua dell'ospite. Capisce anche le note vocali degli ospiti. A te inoltra nella lingua che hai scelto per configurarlo solo le domande nuove, cioè quelle per cui non ha ancora una risposta."
+     }
+    },
+    {
+     "@type": "Question",
      "name": "Come arrivano gli ospiti su Ospitalk?",
      "acceptedAnswer": {
       "@type": "Answer",
@@ -267,7 +276,7 @@
     <div class="wrap hero-grid">
       <div>
         <h1><span class="kicker">Risposte automatiche agli ospiti su WhatsApp per case vacanza, B&amp;B e affittacamere</span>Gli ospiti chiedono. <em>La tua casa risponde.</em></h1>
-        <p class="lead">L'ospite inquadra il QR della struttura e scrive su WhatsApp, nella sua lingua. Ospitalk risponde con le informazioni che gli hai dato tu, chattando dal tuo WhatsApp, e ti coinvolge solo quando serve una risposta che ancora non conosce.</p>
+        <p class="lead">L'ospite scrive o manda un vocale su WhatsApp nella sua lingua, anche se tu non la parli. Ospitalk risponde con le informazioni che gli hai dato e ti inoltra, nella tua lingua, solo le domande nuove.</p>
         <a class="btn" href="https://wa.me/393277485039?text=ATTIVA%20OSPITALK"><svg class="ico" aria-hidden="true"><use href="/icons.svg#i-chat"/></svg>Attiva su WhatsApp</a>
         <p class="hero-note">Si apre la chat con <strong>ATTIVA OSPITALK</strong> già pronto. Nessuna app da scaricare, né per te né per gli ospiti.<br><strong>30 giorni gratis, nessuna carta richiesta.</strong></p>
       </div>
@@ -291,9 +300,9 @@
   </section>
 
   <section class="band"><div class="wrap"><div class="sec-head"><p class="eyebrow">Un solo canale</p><h2>Il tuo lavoro resta su WhatsApp</h2></div><ol class="ledger">
-    <li><q>Qual è la password del Wi-Fi?</q><p>Le risposte note partono automaticamente, anche quando non puoi prendere il telefono.</p><span class="stamp stamp-green">Risponde da sola</span></li>
+    <li><q>Qual è la password del Wi-Fi?</q><p>Le risposte note partono automaticamente, anche quando non puoi prendere il telefono.</p><span class="stamp stamp-green">Risponde in autonomia</span></li>
     <li><q>Possiamo lasciare i bagagli prima?</q><p>Se la risposta manca, la domanda arriva a te su WhatsApp e decidi cosa dire.</p><span class="stamp">Chiede a te</span></li>
-    <li><q>Dove possiamo parcheggiare?</q><p>L'ospite riceve indicazioni basate sulle informazioni che hai dato durante la configurazione.</p><span class="stamp stamp-ink">Dalle tue indicazioni</span></li>
+    <li><q>Dove possiamo parcheggiare?</q><p>L'ospite riceve indicazioni basate sulle informazioni che hai dato durante la configurazione.</p><span class="stamp stamp-ink">Usa le tue indicazioni</span></li>
   </ol></div></section>
 
   <section id="come-funziona"><div class="wrap how">
@@ -315,11 +324,11 @@
   </div></section>
 
   <section class="band"><div class="wrap"><div class="sec-head"><p class="eyebrow">Punti di forza</p><h2>Un assistente che sa quando chiedere a te</h2></div><div class="features">
-    <div class="feature"><svg class="ico" aria-hidden="true"><use href="/icons.svg#i-chat"/></svg><h3>Il tuo WhatsApp, davvero</h3><p>Attivazione, configurazione ed eccezioni arrivano nella stessa chat. Non c'è un'app host da controllare.</p></div>
-    <div class="feature"><svg class="ico" aria-hidden="true"><use href="/icons.svg#i-mic"/></svg><h3>Configuri come preferisci</h3><p>Scrivi, manda una foto o registra una nota vocale. Le informazioni della struttura si raccolgono conversando.</p></div>
-    <div class="feature"><svg class="ico" aria-hidden="true"><use href="/icons.svg#i-handoff"/></svg><h3>Passaggio all'host quando serve</h3><p>Se la risposta non è disponibile, la domanda arriva a te. Rispondi dal tuo WhatsApp e l'ospite riceve il messaggio.</p></div>
+    <div class="feature"><svg class="ico" aria-hidden="true"><use href="/icons.svg#i-chat"/></svg><h3>Il tuo WhatsApp, davvero</h3><p>Attivazione, configurazione e domande nuove arrivano nella stessa chat. Non c'è un'app host da controllare.</p></div>
+    <div class="feature"><svg class="ico" aria-hidden="true"><use href="/icons.svg#i-mic"/></svg><h3>Configuri come preferisci</h3><p>Scrivi, manda una foto o registra una nota vocale. Impara tutto sulla tua struttura semplicemente chattando.</p></div>
+    <div class="feature"><svg class="ico" aria-hidden="true"><use href="/icons.svg#i-handoff"/></svg><h3>Chiede a te solo quando serve</h3><p>Se la risposta non è disponibile, la domanda arriva a te. Rispondi dal tuo WhatsApp e l'ospite riceve il messaggio.</p></div>
     <div class="feature"><svg class="ico" aria-hidden="true"><use href="/icons.svg#i-save"/></svg><h3>Le risposte utili si riusano</h3><p>Una tua risposta può diventare automatica per richieste future, così la conoscenza della struttura cresce nel tempo.</p></div>
-    <div class="feature"><svg class="ico" aria-hidden="true"><use href="/icons.svg#i-globe"/></svg><h3>Conversazioni nella lingua dell'ospite</h3><p>Tu scrivi le informazioni della struttura in italiano; Ospitalk risponde all'ospite nella sua lingua.</p></div>
+    <div class="feature"><svg class="ico" aria-hidden="true"><use href="/icons.svg#i-globe"/></svg><h3>Parla la lingua dei tuoi ospiti</h3><p>Un vocale in tedesco o in inglese? Ospitalk lo ascolta e risponde per iscritto nella lingua dell'ospite: tu non devi decifrare nulla. A te inoltra, nella lingua che hai scelto per configurarlo, solo le domande nuove. Usa solo le informazioni che hai dato tu: se non sa una risposta, non la inventa e chiede a te.</p><ul class="language-list" aria-label="Lingue disponibili"><li lang="it">Italiano</li><li lang="en">English</li><li lang="de">Deutsch</li><li lang="fr">Français</li><li lang="es">Español</li><li lang="pt">Português</li><li lang="nl">Nederlands</li><li lang="pl">Polski</li><li lang="zh-Hans">中文</li><li lang="ja">日本語</li><li lang="ru">Русский</li></ul></div>
     <div class="feature"><svg class="ico" aria-hidden="true"><use href="/icons.svg#i-key"/></svg><h3>Il numero dell'ospite resta privato</h3><p>Non ricevi il numero di telefono dell'ospite: vedi il nome del suo profilo WhatsApp oppure «Ospite n.» con un numero progressivo.</p></div>
     <div class="feature"><svg class="ico" aria-hidden="true"><use href="/icons.svg#i-door"/></svg><h3>QR in casa, link per le prenotazioni dirette</h3><p>Per gli ospiti delle piattaforme il canale è il QR esposto in struttura, facoltativo per loro. Chi prenota direttamente da te può ricevere il link prima dell'arrivo.</p></div>
     <div class="feature"><svg class="ico" aria-hidden="true"><use href="/icons.svg#i-cloche"/></svg><h3>Servizi extra separati</h3><p>Transfer, colazione e late check-out si configurano nell'Area servizi, accessibile tramite il link ricevuto scrivendo SERVIZI.</p></div>
@@ -353,6 +362,7 @@
   <section class="band" id="faq"><div class="wrap"><p class="eyebrow">Domande frequenti</p><h2>Cosa sapere prima di attivare Ospitalk</h2><div class="faq">
     <details><summary>Devo scaricare un'app o usare un nuovo numero?</summary><p>No. Usi il tuo WhatsApp per attivare Ospitalk, configurare la struttura e rispondere alle domande inoltrate. Gli ospiti scrivono dal loro WhatsApp. Non c'è nessuna app da scaricare, né per te né per loro.</p></details>
     <details><summary>Come attivo Ospitalk?</summary><p>Scrivi ATTIVA OSPITALK al numero WhatsApp di Ospitalk, +39 327 748 5039. La configurazione prosegue nella stessa chat con domande guidate: puoi inviare testi, foto e note vocali.</p></details>
+    <details><summary>In quali lingue risponde Ospitalk?</summary><p>Ospitalk risponde in Italiano, English, Deutsch, Français, Español, Português, Nederlands, Polski, 中文, 日本語 e Русский, anche se non parli la lingua dell'ospite. Capisce anche le note vocali degli ospiti. A te inoltra nella lingua che hai scelto per configurarlo solo le domande nuove, cioè quelle per cui non ha ancora una risposta.</p></details>
     <details><summary>Come arrivano gli ospiti su Ospitalk?</summary><p>Chi prenota tramite le piattaforme trova in casa il QR della struttura: inquadrarlo è facoltativo e apre WhatsApp. Le regole delle piattaforme possono limitare link e contatti nei loro messaggi, per questo il canale per questi ospiti è il QR esposto in struttura. A chi prenota direttamente da te puoi inviare il link della struttura prima dell'arrivo.</p></details>
     <details><summary>Vedo il numero di telefono degli ospiti?</summary><p>No. Ospitalk non ti comunica il numero dell'ospite: nelle conversazioni e negli avvisi vedi il nome del suo profilo WhatsApp oppure «Ospite n.» seguito da un numero progressivo. L'ospite ne viene informato quando scrive la prima volta.</p></details>
     <details><summary>Cosa succede se l'assistente non sa rispondere?</summary><p>Ricevi la domanda sul tuo WhatsApp e rispondi direttamente da lì. Ospitalk consegna la risposta all'ospite e può usarla come risposta automatica in futuro, se decidi di salvarla.</p></details>
