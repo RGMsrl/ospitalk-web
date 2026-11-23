@@ -246,7 +246,7 @@ def home(lang, T):
     u = url(lang, "")
     L = T["ld"]
     offers = []
-    for (name, desc), price, unit in zip(L["offers"], ["0", "74.50", "19.90"], [False, False, True]):
+    for (name, desc), price, unit in zip(L["offers"], ["0", "99", "19.90"], [False, False, True]):
         offers.append({"@type": "Offer", "name": name, "price": price, "priceCurrency": "EUR", "description": desc,
                        "url": u + "#prezzi", "priceSpecification": price_spec(price, unit)})
     ld = {"@context": "https://schema.org", "@graph": [
@@ -329,7 +329,7 @@ def home(lang, T):
 
   <section id="prezzi"><div class="wrap"><div class="sec-head"><p class="eyebrow">{T["nav_prices"]}</p><h2>{P["h2"]}</h2><p class="lead">{P["lead"]}</p></div>
     <div class="prices prices-2">
-      <article class="price price-hl"><span class="label">{P["launch_label"]}</span><h3>{P["season"]}</h3><p class="amount">€74,50</p><p>{P["season_p"]}</p></article>
+      <article class="price price-hl"><span class="label">{P["launch_label"]}</span><h3>{P["season"]}</h3><p class="amount">€99</p><p>{P["season_p"]}</p></article>
       <article class="price"><h3>{P["monthly"]}</h3><p class="amount">€19,90<span>{P["per_month"]}</span></p><p>{P["monthly_p"]}</p></article>
     </div>
     <p class="price-note">{f(P["note"])}</p>
