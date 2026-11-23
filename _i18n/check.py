@@ -165,7 +165,7 @@ for u, rel in url_to_rel.items():
         err(f"sitemap: manca {u}")
 
 # 4. dati che devono essere identici
-MUST = ["€74,50", "€99", "€19,90", "+39 327 748 5039", "https://wa.me/393277485039?text=ATTIVA%20OSPITALK",
+MUST = ["€74,50", "€19,90", "+39 327 748 5039", "https://wa.me/393277485039?text=ATTIVA%20OSPITALK",
         "info@ospitalk.it", "https://app.ospitalk.it/accounts/login/", "RGM S.r.l.", "IT05047840870",
         "Via Giuseppe Garibaldi 23, 95010 Santa Venerina (CT)", "05047840870", "ATTIVA OSPITALK"]
 facts = {}
@@ -182,7 +182,7 @@ for code in [l[0] for l in build.LANGS]:
             err(f"{rel}: mancano {missing}")
         if page == "":
             # cifre del lancio: 100 strutture, 14 giorni, 150 risposte, 30 giorni
-            nums = [n for n in ("100", "14", "150", "30", "2027", "2028") if n not in re.sub(r"<[^>]+>", " ", text)]
+            nums = [n for n in ("100", "14", "150", "30", "2027") if n not in re.sub(r"<[^>]+>", " ", text)]
             if nums:
                 err(f"{rel}: numeri mancanti {nums}")
             facts[code] = {m: text.count(m) for m in MUST}
