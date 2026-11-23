@@ -165,7 +165,7 @@ for u, rel in url_to_rel.items():
         err(f"sitemap: manca {u}")
 
 # 4. dati che devono essere identici
-MUST = ["€99", "€19,90", "+39 327 748 5039", "https://wa.me/393277485039?text=ATTIVA%20OSPITALK",
+MUST = ["€99", "€149", "€19,90", "+39 327 748 5039", "https://wa.me/393277485039?text=ATTIVA%20OSPITALK",
         "info@ospitalk.it", "https://app.ospitalk.it/accounts/login/", "RGM S.r.l.", "IT05047840870",
         "Via Giuseppe Garibaldi 23, 95010 Santa Venerina (CT)", "05047840870", "ATTIVA OSPITALK"]
 facts = {}
