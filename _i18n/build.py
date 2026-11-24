@@ -283,7 +283,7 @@ def home(lang, T):
         <h1><span class="kicker">{T["kicker"]}</span>{T["h1"]}<em>{T["h1_em"]}</em></h1>
         <p class="lead">{T["lead"]}</p>
         {btn(T)}
-        <p class="hero-note">{T["hero_note"]}<br><strong>{T["trial"]}</strong></p>
+        <p class="hero-note">{T["hero_note"]}<br><strong>{T["trial"]}</strong><br>{T["offer"]}</p>
       </div>
       <figure class="scene">
         <div class="placard" aria-hidden="true">
@@ -327,7 +327,7 @@ def home(lang, T):
   <section><div class="wrap"><div class="sec-head"><p class="eyebrow">{T["e4"]}</p><h2>{T["h2_4"]}</h2><p class="lead">{T["lead_4"]}</p></div><div class="keyrack">{keys}
   </div></div></section>
 
-  <section id="prezzi"><div class="wrap"><div class="sec-head"><p class="eyebrow">{T["nav_prices"]}</p><h2>{P["h2"]}</h2><p class="lead">{P["lead"]}</p></div>
+  <section id="prezzi"><div class="wrap"><div class="sec-head"><p class="eyebrow">{T["nav_prices"]}</p><h2>{P["h2"]}</h2><p class="lead">{P["lead"]} <strong>{T["offer"]}</strong></p></div>
     <div class="prices prices-3">
       <article class="price price-hl"><span class="label">{P["launch_label"]}</span><h3>{P["season"]}</h3><p class="amount">€99</p><p>{P["season_p"]}</p></article>
       <article class="price"><h3>{P["annual"]}</h3><p class="amount">€149</p><p>{P["annual_p"]}</p></article>
@@ -381,7 +381,7 @@ def vertical(lang, T, page):
     related = "".join(f'<a href="{path(lang, pg)}">{T["rel"][pg]}</a>' for pg in PAGES[1:] if pg != page)
     related += f'<a href="{prefix(lang)}">{T["back_home"]}</a>'
     body = f"""<main>
-  <section class="vertical-hero"><div class="wrap"><div><nav class="breadcrumb" aria-label="{T["crumb_label"]}"><ol><li><a href="{prefix(lang)}">Home</a></li><li aria-current="page">{V["crumb"]}</li></ol></nav><span class="badge">{V["badge"]}</span><h1>{V["h1"]}</h1><p class="lead">{V["lead"]}</p>{btn(T)}<p class="hero-note">{V["note"]}<br><strong>{T["trial"]}</strong></p></div><div class="placard" aria-hidden="true">{PLACARD_STRING}<span class="placard-name">{V["placard"]}</span><svg class="placard-qr"><use href="/icons.svg#i-qrdeco"/></svg><span class="placard-text">{T["placard_text"]}</span></div></div></section>
+  <section class="vertical-hero"><div class="wrap"><div><nav class="breadcrumb" aria-label="{T["crumb_label"]}"><ol><li><a href="{prefix(lang)}">Home</a></li><li aria-current="page">{V["crumb"]}</li></ol></nav><span class="badge">{V["badge"]}</span><h1>{V["h1"]}</h1><p class="lead">{V["lead"]}</p>{btn(T)}<p class="hero-note">{V["note"]}<br><strong>{T["trial"]}</strong><br>{T["offer"]}</p></div><div class="placard" aria-hidden="true">{PLACARD_STRING}<span class="placard-name">{V["placard"]}</span><svg class="placard-qr"><use href="/icons.svg#i-qrdeco"/></svg><span class="placard-text">{T["placard_text"]}</span></div></div></section>
   <section class="band"><div class="wrap"><span class="eyebrow">{V["e1"]}</span><h2>{V["h2_1"]}</h2><p class="lead">{V["lead_1"]}</p><div class="cards">{cards}
   </div></div></section>
   <section><div class="wrap"><span class="eyebrow">{V["e2"]}</span><h2>{V["h2_2"]}</h2><div class="features">{feats}
