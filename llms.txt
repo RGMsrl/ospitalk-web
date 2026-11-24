@@ -14,6 +14,7 @@
 ## Prezzi (per struttura, IVA inclusa)
 
 - 30 giorni di prova gratuita, senza carta di pagamento.
+- Offerta di lancio: gratis fino al 31 marzo 2027 per le prime 100 strutture, senza carta.
 - Stagione 2027: €99, pagamento unico in anticipo per la stagione 1° aprile-30 ottobre 2027 (se pagata prima, valida da subito fino al 30/10/2027). Prezzo di lancio per le prime 100 strutture.
 - Annuale: €149, pagamento unico, 12 mesi, nessun rinnovo automatico; se pagato durante la prova, i 12 mesi partono dalla fine della prova.
 - Mensile: €19,90 al mese, disdetta quando si vuole; se attivato durante la prova, il primo addebito arriva alla fine della prova.
