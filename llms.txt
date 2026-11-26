@@ -9,16 +9,17 @@
 - L'host non riceve il numero di telefono dell'ospite: vede il nome del profilo WhatsApp oppure "Ospite n." con un numero progressivo.
 - Se l'assistente non conosce la risposta, la domanda arriva all'host su WhatsApp; la risposta dell'host viene consegnata all'ospite e può essere salvata per le volte successive.
 - L'Area servizi web serve a configurare servizi extra a pagamento (transfer, colazione, late check-out).
-- Durante la configurazione chiede il CIN della struttura (facoltativo, si può saltare). Non invia le schedine ad Alloggiati Web e non è pensato per raccogliere documenti d'identità.
+- Durante la configurazione chiede il CIN della struttura (si può saltare e aggiungere dopo, ma per scegliere un piano serve un CIN valido). Non invia le schedine ad Alloggiati Web e non è pensato per raccogliere documenti d'identità.
 
 ## Prezzi (per struttura, IVA inclusa)
 
-- 30 giorni di prova gratuita, senza carta di pagamento.
-- Offerta di lancio: gratis fino al 31 marzo 2027 per le prime 100 strutture, senza carta (massimo 5 per host).
+- Offerta di lancio: gratis fino al 31 marzo 2027 compreso (ora italiana), senza carta di pagamento, per le prime 100 strutture (massimo 5 per host).
+- Esauriti i posti: 30 giorni di prova gratuita, senza carta di pagamento.
+- Alla fine nessun addebito automatico: se non si sceglie un piano, le risposte si fermano.
 - Stagione 2027: €99, pagamento unico in anticipo per la stagione 1° aprile-30 ottobre 2027 (se pagata prima, valida da subito fino al 30/10/2027). Prezzo di lancio per le prime 100 strutture.
 - Annuale: €149, pagamento unico, 12 mesi, nessun rinnovo automatico; se pagato durante la prova, i 12 mesi partono dalla fine della prova.
 - Mensile: €19,90 al mese, disdetta quando si vuole; se attivato durante la prova, il primo addebito arriva alla fine della prova.
-- Risposte automatiche incluse, con uso corretto: nessun numero oltre il quale si fermano.
+- Risposte automatiche incluse, con uso corretto: con un piano a pagamento nessun numero oltre il quale si fermano; durante il periodo gratuito fino a 10 ospiti nuovi al giorno per struttura.
 - Se sei un privato puoi recedere entro 14 giorni dal pagamento: dettagli nei termini di servizio (https://ospitalk.it/termini.html).
 
 ## Pagine
