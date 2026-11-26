@@ -77,7 +77,7 @@ T = {
         "note": "Ceny za obiekt, z VAT. Automatyczne odpowiedzi są wliczone w cenę, w ramach uczciwego korzystania (zob. <a href='{faq}'>najczęstsze pytania</a>). Płacisz kartą na bezpiecznej stronie Stripe. Jeśli jesteś konsumentem, możesz odstąpić od umowy w ciągu 14 dni od płatności: szczegóły w <a href='{terms}'>regulaminie usługi</a> (po angielsku).",
     },
     "w_label": "Dla pierwszych 100 obiektów", "w_h2": "Aktywuj Ospitalk z czatu",
-    "w_p": "Za darmo do 31 marca 2027 r., bez karty (maksymalnie 5 na gospodarza). Potem Sezon 2027, od 1 kwietnia do 30 października, kosztuje €99 jednorazowo: to cena na start zarezerwowana dla pierwszych 100 obiektów. Po wyczerpaniu miejsc zaczynasz od 30 dni za darmo.",
+    "w_p": "Za darmo do 31 marca 2027 r., bez karty (maksymalnie 5 na gospodarza); po wyczerpaniu miejsc zaczynasz od 30 dni za darmo. Potem Sezon 2027, od 1 kwietnia do 30 października, kosztuje €99 jednorazowo: to cena na start zarezerwowana dla pierwszych 100 obiektów.",
     "welcome_li": ["Żadnej aplikacji do pobrania, ani dla Ciebie, ani dla gości", "Konfiguracja tekstem, zdjęciami i wiadomościami głosowymi",
                    "Nowe pytania przekazywane na Twojego WhatsAppa", "Nie otrzymujesz numeru telefonu gościa"],
     "h2_faq": "Co warto wiedzieć przed aktywacją Ospitalk",

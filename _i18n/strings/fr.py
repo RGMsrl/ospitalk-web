@@ -18,7 +18,7 @@ T = {
     "e_start": "Tout commence dans le chat",
 
     "title": "Réponse automatique WhatsApp pour location de vacances en Italie | Ospitalk",
-    "desc": "Assistant WhatsApp pour locations de vacances et B&amp;B en Italie : il répond aux voyageurs dans leur langue, même celles que vous ne parlez pas, et ne vous transmet que les nouvelles questions. Gratuit jusqu’au 31 mars 2027 pour les 100 premiers hébergements.",
+    "desc": "Assistant WhatsApp pour locations de vacances et B&amp;B en Italie : il répond aux voyageurs dans leur langue, même si vous ne la parlez pas, et ne vous transmet que les nouvelles questions. Gratuit jusqu’au 31 mars 2027 pour les 100 premiers hébergements.",
     "kicker": "Réponses automatiques aux voyageurs sur WhatsApp pour locations de vacances, B&amp;B et chambres d’hôtes en Italie",
     "h1": "Les voyageurs demandent. ", "h1_em": "Votre logement répond.",
     "lead": "Le voyageur scanne le QR code de votre logement et écrit sur WhatsApp dans sa langue, même si vous ne la parlez pas. Ospitalk répond avec les informations que vous lui avez données en discutant depuis votre WhatsApp, et ne fait appel à vous que lorsqu’il lui manque une réponse.",
@@ -77,7 +77,7 @@ T = {
         "note": "Prix par hébergement, TVA incluse. Les réponses automatiques sont incluses, dans le cadre d’un usage raisonnable (voir les <a href='{faq}'>questions fréquentes</a>). Vous payez par carte sur une page sécurisée Stripe. Si vous êtes un particulier, vous pouvez vous rétracter dans les 14 jours suivant le paiement : détails dans les <a href='{terms}'>conditions d’utilisation</a>.",
     },
     "w_label": "Pour les 100 premiers hébergements", "w_h2": "Activez Ospitalk depuis le chat",
-    "w_p": "Gratuit jusqu’au 31 mars 2027, sans carte (5 maximum par hôte). Ensuite, la Saison 2027, du 1er avril au 30 octobre, coûte €99 en une seule fois : un prix de lancement réservé aux 100 premiers hébergements. Une fois les places épuisées, vous commencez avec 30 jours gratuits.",
+    "w_p": "Gratuit jusqu’au 31 mars 2027, sans carte (5 maximum par hôte) ; une fois les places épuisées, vous commencez avec 30 jours gratuits. Ensuite, la Saison 2027, du 1er avril au 30 octobre, coûte €99 en une seule fois : un prix de lancement réservé aux 100 premiers hébergements.",
     "welcome_li": ["Aucune application à télécharger, ni pour vous ni pour vos voyageurs", "Configuration par textes, photos et messages vocaux",
                    "Nouvelles questions transmises à votre WhatsApp", "Le numéro du voyageur ne vous est pas communiqué"],
     "h2_faq": "À savoir avant d’activer Ospitalk",

@@ -77,7 +77,7 @@ T = {
         "note": "Preços por alojamento, IVA incluído. As respostas automáticas estão incluídas, com uma utilização razoável (ver as <a href='{faq}'>perguntas frequentes</a>). Paga com cartão numa página segura da Stripe. Se for um particular, pode exercer o direito de livre resolução no prazo de 14 dias após o pagamento: detalhes nos <a href='{terms}'>termos do serviço</a>.",
     },
     "w_label": "Para os primeiros 100 alojamentos", "w_h2": "Ative o Ospitalk a partir da conversa",
-    "w_p": "Grátis até 31 de março de 2027, sem cartão (máximo de 5 por anfitrião). Depois, a Época 2027, de 1 de abril a 30 de outubro, custa €99 num único pagamento: preço de lançamento reservado aos primeiros 100 alojamentos. Esgotados os lugares, começa com 30 dias grátis.",
+    "w_p": "Grátis até 31 de março de 2027, sem cartão (máximo de 5 por anfitrião); esgotados os lugares, começa com 30 dias grátis. Depois, a Época 2027, de 1 de abril a 30 de outubro, custa €99 num único pagamento: preço de lançamento reservado aos primeiros 100 alojamentos.",
     "welcome_li": ["Sem aplicações para descarregar, nem para si nem para os hóspedes", "Configuração com textos, fotos e mensagens de voz",
                    "Perguntas novas encaminhadas para o seu WhatsApp", "O número do hóspede não lhe é comunicado"],
     "h2_faq": "O que saber antes de ativar o Ospitalk",

@@ -79,7 +79,7 @@ T = {
         "note": "Prices per property, VAT included. Automatic replies are included, with fair use (see the <a href='{faq}'>frequently asked questions</a>). You pay by card on a secure Stripe page. If you are a private individual you can withdraw within 14 days of payment: details in the <a href='{terms}'>terms of service</a>.",
     },
     "w_label": "For the first 100 properties", "w_h2": "Activate Ospitalk from the chat",
-    "w_p": "Free until 31 March 2027, no card needed (maximum 5 per host). After that, Season 2027, from 1 April to 30 October, costs €99 in a single payment: a launch price reserved for the first 100 properties. Once the places are gone, you start with 30 days free.",
+    "w_p": "Free until 31 March 2027, no card needed (maximum 5 per host); once the places are gone, you start with 30 days free. After that, Season 2027, from 1 April to 30 October, costs €99 in a single payment: a launch price reserved for the first 100 properties.",
     "welcome_li": ["No app to download, for you or your guests", "Setup with texts, photos and voice notes",
                    "New questions forwarded to your WhatsApp", "You are never given the guest's number"],
     "h2_faq": "What to know before activating Ospitalk",

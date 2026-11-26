@@ -66,7 +66,7 @@ T = {
     ],
     "prices": {
         "h2": "Gratis tot en met 31 maart 2027, daarna kies je hoe je verdergaat",
-        "lead": "We vragen geen betaalkaart. Aan het eind geen automatische afschrijving: kies je geen abonnement, dan stoppen de antwoorden.",
+        "lead": "We vragen geen betaalkaart. Aan het einde vindt geen automatische afschrijving plaats: kies je geen abonnement, dan stoppen de antwoorden.",
         "launch_label": "Introductieprijs · eerste 100 accommodaties",
         "season": "Seizoen 2027",
         "season_p": "Dekt het seizoen van 1 april tot en met 30 oktober 2027 met één betaling vooraf: betaal je eerder, dan geldt het meteen tot en met 30 oktober 2027.",
@@ -77,7 +77,7 @@ T = {
         "note": "Prijzen per accommodatie, inclusief btw. Automatische antwoorden zijn inbegrepen, bij redelijk gebruik (zie de <a href='{faq}'>veelgestelde vragen</a>). Je betaalt met een kaart op een beveiligde pagina van Stripe. Ben je particulier, dan kun je binnen 14 dagen na de betaling gebruikmaken van je herroepingsrecht: details in de <a href='{terms}'>servicevoorwaarden</a> (Engels).",
     },
     "w_label": "Voor de eerste 100 accommodaties", "w_h2": "Activeer Ospitalk vanuit de chat",
-    "w_p": "Gratis tot en met 31 maart 2027, zonder kaart (maximaal 5 per verhuurder). Daarna kost Seizoen 2027, van 1 april tot en met 30 oktober, €99 in één betaling: een introductieprijs die alleen geldt voor de eerste 100 accommodaties. Zijn de plaatsen op, dan begin je met 30 dagen gratis.",
+    "w_p": "Gratis tot en met 31 maart 2027, zonder kaart (maximaal 5 per verhuurder); zijn de plaatsen op, dan begin je met 30 dagen gratis. Daarna kost Seizoen 2027, van 1 april tot en met 30 oktober, €99 in één betaling: een introductieprijs die alleen geldt voor de eerste 100 accommodaties.",
     "welcome_li": ["Geen app om te downloaden, niet voor jou en niet voor je gasten", "Instellen met tekst, foto’s en spraakberichten",
                    "Nieuwe vragen doorgestuurd naar je WhatsApp", "Je krijgt het nummer van de gast niet te zien"],
     "h2_faq": "Wat je moet weten voordat je Ospitalk activeert",
