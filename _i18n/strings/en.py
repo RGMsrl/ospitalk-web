@@ -20,7 +20,7 @@ T = {
 
     # home
     "title": "WhatsApp auto-reply for holiday rentals &amp; B&amp;Bs in Italy | Ospitalk",
-    "desc": "WhatsApp assistant for holiday rentals and B&amp;Bs in Italy: it answers guests in their own language, even ones you don't speak, and forwards you only new questions. Free until 31 March 2027 for the first 100 properties.",
+    "desc": "WhatsApp assistant for holiday rentals and B&amp;Bs in Italy: it answers guests in their own language, even one you don't speak, and forwards you only new questions. Free until 31 March 2027 for the first 100 properties (maximum 5 per host).",
     "kicker": "Automatic WhatsApp replies to guests for holiday rentals, B&amp;Bs and guest houses in Italy",
     "h1": "Guests ask. ", "h1_em": "Your home answers.",
     "lead": "Guests scan your property's QR code and write on WhatsApp in their own language, even one you don't speak. Ospitalk replies with the information you gave it by chatting from your WhatsApp, and only brings you in when it needs an answer it doesn't know yet.",
@@ -73,9 +73,9 @@ T = {
         "season": "Season 2027",
         "season_p": "Covers the season from 1 April to 30 October 2027 with a single upfront payment: if you pay earlier, it's valid straight away until 30 October 2027.",
         "annual": "Annual",
-        "annual_p": "One-off payment for 12 months, no automatic renewal. If you pay during the free trial, the 12 months start when it ends.",
+        "annual_p": "One-off payment for 12 months, no automatic renewal. If you pay during the free period, the 12 months start when it ends.",
         "monthly": "Monthly", "per_month": "/month",
-        "monthly_p": "Monthly subscription, cancel whenever you like. If you subscribe during the trial, the first charge comes when the free trial ends.",
+        "monthly_p": "Monthly subscription, cancel whenever you like. If you subscribe during the free period, the first charge comes when it ends.",
         "note": "Prices per property, VAT included. Automatic replies are included, with fair use (see the <a href='{faq}'>frequently asked questions</a>). You pay by card on a secure Stripe page. If you are a private individual you can withdraw within 14 days of payment: details in the <a href='{terms}'>terms of service</a>.",
     },
     "w_label": "For the first 100 properties", "w_h2": "Activate Ospitalk from the chat",
@@ -92,8 +92,8 @@ T = {
         ("What is the Services area for?", "It's where you set up the paid extras you want to offer, such as transfers, breakfast or late check-out. To get the access link, send SERVIZI (Italian for “services”) in the Ospitalk WhatsApp chat."),
         ("Do I need a CIN?", "If your property is in Italy, the CIN (Codice Identificativo Nazionale, the national identification code) must be displayed outside the building and shown in every listing, as required by Article 13-ter of Decree-Law 145/2023. During setup Ospitalk asks for your CIN: you can enter it now or skip that step and add it later, but you need a valid CIN to choose a plan. The obligations remain the owner's. You'll find the details in our <a href='{cin}'>CIN guide</a> (in Italian)."),
         ("Does Ospitalk send guest registrations to Alloggiati Web?", "No. Reporting guests to the police (Questura) through Alloggiati Web remains up to you or your property management software. Ospitalk answers guests' questions before and during their stay and is not designed to collect identity documents."),
-        ("How much does Ospitalk cost?", "Free until 31 March 2027, no card needed: launch offer for the first 100 properties (maximum 5 per host). Once the places are gone, 30 days free. Then you choose one of three plans. Season 2027 at €99: a single upfront payment for the season from 1 April to 30 October 2027 (if you pay earlier, it's valid straight away until 30 October 2027), launch price for the first 100 properties. Annual at €149: one-off payment, 12 months, no automatic renewal (if you pay during the trial, the 12 months start when it ends). Monthly at €19,90 a month: cancel whenever you like; if you subscribe during the trial, the first charge comes at the end of the trial. Prices per property, VAT included. If you are a private individual you can withdraw within 14 days of payment: details in the <a href='{terms}'>terms of service</a>."),
-        ("Is there a limit on automatic replies?", "Automatic replies are included in the price, with fair use: on a paid plan there's no number after which they stop. During the free period they reply to up to 10 new guests a day per property. Only if a single guest sends dozens of messages in a short time do automatic replies to that guest pause for a while."),
+        ("How much does Ospitalk cost?", "Free until 31 March 2027, no card needed: launch offer for the first 100 properties (maximum 5 per host). Once the places are gone, 30 days free. Then you choose one of three plans. Season 2027 at €99: a single upfront payment for the season from 1 April to 30 October 2027 (if you pay earlier, it's valid straight away until 30 October 2027), launch price for the first 100 properties. Annual at €149: one-off payment, 12 months, no automatic renewal (if you pay during the free period, the 12 months start when it ends). Monthly at €19,90 a month: cancel whenever you like; if you subscribe during the free period, the first charge comes when it ends. Prices per property, VAT included. If you are a private individual you can withdraw within 14 days of payment: details in the <a href='{terms}'>terms of service</a>."),
+        ("Is there a limit on automatic replies?", "Automatic replies are included in the price, with fair use: on a paid plan there's no number after which they stop. During the free period the assistant replies to up to 10 new guests a day per property. Only if a single guest sends dozens of messages in a short time do automatic replies to that guest pause for a while."),
     ],
     "h2_final": "Your next message is ATTIVA OSPITALK",
     "lead_final": "Open WhatsApp, send the keyword (Italian for “activate Ospitalk”) and set up your property as you chat.",
@@ -107,8 +107,8 @@ T = {
         "offers": [
             ("Free trial", "Free until 31 March 2027, no payment card, for the first 100 properties (maximum 5 per host); once the places are gone, 30 days free"),
             ("Season 2027", "Single upfront payment for the 1 April-30 October 2027 season (if paid earlier, valid straight away until 30/10/2027). Launch price for the first 100 properties."),
-            ("Annual", "One-off payment, 12 months, no automatic renewal; if paid during the trial, the 12 months start at its end."),
-            ("Monthly", "Monthly subscription, cancel at any time; if started during the trial, first charge at the end of the trial."),
+            ("Annual", "One-off payment, 12 months, no automatic renewal; if paid during the free period, the 12 months start at its end."),
+            ("Monthly", "Monthly subscription, cancel at any time; if started during the free period, first charge at its end."),
         ],
     },
 
