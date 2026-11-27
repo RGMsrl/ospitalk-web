@@ -327,7 +327,7 @@ def home(lang, T):
   <section><div class="wrap"><div class="sec-head"><p class="eyebrow">{T["e4"]}</p><h2>{T["h2_4"]}</h2><p class="lead">{T["lead_4"]}</p></div><div class="keyrack">{keys}
   </div></div></section>
 
-  <section id="prezzi"><div class="wrap"><div class="sec-head"><p class="eyebrow">{T["nav_prices"]}</p><h2>{P["h2"]}</h2><p class="lead">{P["lead"]} <strong>{T["offer"]}</strong></p></div>
+  <section id="prezzi"><div class="wrap"><div class="sec-head"><p class="eyebrow">{T["nav_prices"]}</p><h2>{P["h2"]}</h2><p class="lead"><strong>{T["offer"]}</strong> {P["lead"]}</p></div>
     <div class="prices prices-3">
       <article class="price price-hl"><span class="label">{P["launch_label"]}</span><h3>{P["season"]}</h3><p class="amount">€99</p><p>{P["season_p"]}</p></article>
       <article class="price"><h3>{P["annual"]}</h3><p class="amount">€149</p><p>{P["annual_p"]}</p></article>
